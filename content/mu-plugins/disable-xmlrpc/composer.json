@@ -1,0 +1,15 @@
+{
+  "name": "bea/disable-xmlrpc",
+  "description": "Remove XMLRPC from header, remove feature from WP",
+  "license": "GPL-2.0",
+  "authors": [
+    {
+      "name": "Be API",
+      "email": "technical@beapi.fr"
+    }
+  ],
+  "type" : "wordpress-muplugin",
+  "require" : {
+    "composer/installers" : "~1.0"
+  }
+}

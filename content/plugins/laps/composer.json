@@ -1,0 +1,39 @@
+{
+	"name"       : "rarst/laps",
+	"description": "Light WordPress profiler.",
+	"keywords"   : ["wordpress", "performance"],
+	"type"       : "wordpress-plugin",
+	"homepage"   : "https://github.com/Rarst/laps",
+	"license"    : "MIT",
+	"authors"    : [
+		{
+			"name"    : "Andrey Savchenko",
+			"homepage": "http://www.Rarst.net/"
+		}
+	],
+	"support"    : {
+		"issues": "https://github.com/Rarst/laps/issues"
+	},
+	"autoload"   : {
+		"psr-4": {
+			"Rarst\\Laps\\" : "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Rarst\\Laps\\Tests\\": "tests/"
+		}
+	},
+	"require"    : {
+		"php"                : ">=5.6",
+		"composer/installers": "~1.0",
+		"symfony/stopwatch"  : "^3.4.4",
+		"mustache/mustache"  : "~2.4",
+		"pimple/pimple"      : "^3.2.3"
+	},
+	"require-dev": {
+		"twbs/bootstrap": "~3.2",
+		"brain/monkey"  : "^2.2",
+		"pds/skeleton": "^1.0"
+	}
+}

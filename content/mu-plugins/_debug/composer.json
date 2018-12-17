@@ -1,0 +1,16 @@
+{
+  "name": "bea/_debug",
+  "description": "Fix error reporting Strick Standars of WP",
+  "minimum-stability": "stable",
+  "license": "GPL-2.0",
+  "authors": [
+    {
+      "name": "Amaury BALMER",
+      "email": "amaury@beapi.fr"
+    }
+  ],
+  "type" : "wordpress-muplugin",
+  "require" : {
+    "composer/installers" : "~1.0"
+  }
+}

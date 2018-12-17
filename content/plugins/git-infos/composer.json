@@ -1,0 +1,20 @@
+{
+  "name": "bea/git-infos",
+  "description": "get GIT infos and more",
+  "authors": [
+    {
+      "name": "Be API",
+      "email": "technique@beapi.fr"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "type" : "wordpress-plugin",
+  "autoload": {
+    "classmap": [
+      "classes/",
+      "library"
+    ]
+  }
+}

@@ -1,0 +1,1867 @@
+[
+    {
+        "name": "bea/_debug",
+        "version": "0.2",
+        "version_normalized": "0.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/BeAPI/_bea-debug.git",
+            "reference": "a9734bf26e8e3a455dc8f289506e4ccea7832be7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/BeAPI/_bea-debug/zipball/a9734bf26e8e3a455dc8f289506e4ccea7832be7",
+            "reference": "a9734bf26e8e3a455dc8f289506e4ccea7832be7",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "time": "2015-10-13T15:25:08+00:00",
+        "type": "wordpress-muplugin",
+        "installation-source": "dist",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Amaury BALMER",
+                "email": "amaury@beapi.fr"
+            }
+        ],
+        "description": "Fix error reporting Strick Standars of WP",
+        "support": {
+            "source": "https://github.com/BeAPI/_bea-debug/tree/0.2",
+            "issues": "https://github.com/BeAPI/_bea-debug/issues"
+        }
+    },
+    {
+        "name": "bea/autoload",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/BeAPI/bea-autoload.git",
+            "reference": "ab45ec7530e5d1f462cae7cedd54652dbbd9b403"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/BeAPI/bea-autoload/zipball/ab45ec7530e5d1f462cae7cedd54652dbbd9b403",
+            "reference": "ab45ec7530e5d1f462cae7cedd54652dbbd9b403",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "time": "2017-05-04T10:16:32+00:00",
+        "type": "wordpress-muplugin",
+        "installation-source": "dist",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "BeAPI",
+                "email": "technique@beapi.fr"
+            }
+        ],
+        "description": "Autoload class for plugins",
+        "support": {
+            "source": "https://github.com/BeAPI/bea-autoload/tree/1.0.0",
+            "issues": "https://github.com/BeAPI/bea-autoload/issues"
+        }
+    },
+    {
+        "name": "bea/bea-env-switcher",
+        "version": "1.0.2",
+        "version_normalized": "1.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/BeAPI/bea-env-switcher.git",
+            "reference": "ac4548e94199a46513329adf18e3b73949cd00e7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/BeAPI/bea-env-switcher/zipball/ac4548e94199a46513329adf18e3b73949cd00e7",
+            "reference": "ac4548e94199a46513329adf18e3b73949cd00e7",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "time": "2018-04-14T20:34:37+00:00",
+        "type": "wordpress-muplugin",
+        "installation-source": "dist",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "BeAPI",
+                "email": "technique@beapi.fr"
+            }
+        ],
+        "description": " Be API environnement switcher",
+        "support": {
+            "source": "https://github.com/BeAPI/bea-env-switcher/tree/1.0.2",
+            "issues": "https://github.com/BeAPI/bea-env-switcher/issues"
+        }
+    },
+    {
+        "name": "bea/bea-welcome-panel",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/BeAPI/bea-welcome-panel.git",
+            "reference": "8bbd9430610f0029b394822e54d0ec220732a3db"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/BeAPI/bea-welcome-panel/zipball/8bbd9430610f0029b394822e54d0ec220732a3db",
+            "reference": "8bbd9430610f0029b394822e54d0ec220732a3db",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "time": "2017-10-06T09:07:55+00:00",
+        "type": "wordpress-muplugin",
+        "installation-source": "dist",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "BeAPI",
+                "email": "technique@beapi.fr"
+            }
+        ],
+        "description": "CWelcome panel dashboard beapi",
+        "support": {
+            "source": "https://github.com/BeAPI/bea-welcome-panel/tree/1.0.0",
+            "issues": "https://github.com/BeAPI/bea-welcome-panel/issues"
+        }
+    },
+    {
+        "name": "bea/composer/freeze-version",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/BeAPI/composer-freeze-version.git",
+            "reference": "eabcc37f9ae64626e0e9fbee77745363323eb9e6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/BeAPI/composer-freeze-version/zipball/eabcc37f9ae64626e0e9fbee77745363323eb9e6",
+            "reference": "eabcc37f9ae64626e0e9fbee77745363323eb9e6",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.1",
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "composer/composer": "^1.4"
+        },
+        "time": "2018-08-24T13:10:57+00:00",
+        "type": "composer-plugin",
+        "extra": {
+            "class": "BEA\\Composer\\FreezePackagesVersionPlugin\\FreezePackagesVersion"
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "BEA\\Composer\\FreezePackagesVersionPlugin\\": "src"
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "BeAPI",
+                "email": "technical@beapi.fr"
+            }
+        ],
+        "support": {
+            "source": "https://github.com/BeAPI/composer-freeze-version/tree/master",
+            "issues": "https://github.com/BeAPI/composer-freeze-version/issues"
+        }
+    },
+    {
+        "name": "bea/composer/make-stable",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/BeAPI/composer-make-stable.git",
+            "reference": "f1892bf827325a58a316df5bbe0475d11f13c502"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/BeAPI/composer-make-stable/zipball/f1892bf827325a58a316df5bbe0475d11f13c502",
+            "reference": "f1892bf827325a58a316df5bbe0475d11f13c502",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.1",
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "composer/composer": "^1.4"
+        },
+        "time": "2018-06-08T07:23:47+00:00",
+        "type": "composer-plugin",
+        "extra": {
+            "class": "BEA\\Composer\\MakeStablePlugin\\MakeStable"
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "BEA\\Composer\\MakeStablePlugin\\": "src"
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "BeAPI",
+                "email": "technical@beapi.fr"
+            }
+        ],
+        "support": {
+            "source": "https://github.com/BeAPI/composer-make-stable/tree/1.2",
+            "issues": "https://github.com/BeAPI/composer-make-stable/issues"
+        }
+    },
+    {
+        "name": "bea/composer/scaffold-plugin",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/BeAPI/composer-scaffold-plugin.git",
+            "reference": "f4fb63c5c2ec8b874566d90fc3a207a1e124a2d0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/BeAPI/composer-scaffold-plugin/zipball/f4fb63c5c2ec8b874566d90fc3a207a1e124a2d0",
+            "reference": "f4fb63c5c2ec8b874566d90fc3a207a1e124a2d0",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.1",
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "composer/composer": "^1.6"
+        },
+        "time": "2018-06-06T22:26:15+00:00",
+        "type": "composer-plugin",
+        "extra": {
+            "class": "BEA\\Composer\\ScaffoldPlugin\\ScaffoldPlugin"
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "BEA\\Composer\\ScaffoldPlugin\\": "src"
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "BeAPI",
+                "email": "technical@beapi.fr"
+            }
+        ],
+        "support": {
+            "source": "https://github.com/BeAPI/composer-scaffold-plugin/tree/master",
+            "issues": "https://github.com/BeAPI/composer-scaffold-plugin/issues"
+        }
+    },
+    {
+        "name": "bea/disable-xmlrpc",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/BeAPI/bea-disable-xmlrpc.git",
+            "reference": "64facd1c63667ba74754f05263907dbc424b1bc3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/BeAPI/bea-disable-xmlrpc/zipball/64facd1c63667ba74754f05263907dbc424b1bc3",
+            "reference": "64facd1c63667ba74754f05263907dbc424b1bc3",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "time": "2017-03-29T10:20:35+00:00",
+        "type": "wordpress-muplugin",
+        "installation-source": "dist",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Be API",
+                "email": "technical@beapi.fr"
+            }
+        ],
+        "description": "Remove XMLRPC from header, remove feature from WP",
+        "support": {
+            "source": "https://github.com/BeAPI/bea-disable-xmlrpc/tree/1.0.0",
+            "issues": "https://github.com/BeAPI/bea-disable-xmlrpc/issues"
+        }
+    },
+    {
+        "name": "bea/git-infos",
+        "version": "3.0",
+        "version_normalized": "3.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/BeAPI/bea-scm-infos.git",
+            "reference": "44c00d96af21b24cc7d600a5b26b087a3357cde9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/BeAPI/bea-scm-infos/zipball/44c00d96af21b24cc7d600a5b26b087a3357cde9",
+            "reference": "44c00d96af21b24cc7d600a5b26b087a3357cde9",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "time": "2018-03-26T11:31:53+00:00",
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "classes/",
+                "library"
+            ]
+        },
+        "authors": [
+            {
+                "name": "Be API",
+                "email": "technique@beapi.fr"
+            }
+        ],
+        "description": "get GIT infos and more",
+        "support": {
+            "source": "https://github.com/BeAPI/bea-scm-infos/tree/3.0",
+            "issues": "https://github.com/BeAPI/bea-scm-infos/issues"
+        }
+    },
+    {
+        "name": "bea/logger",
+        "version": "0.3",
+        "version_normalized": "0.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/BeAPI/bea-logger.git",
+            "reference": "654a8a27bcd813161ac2832633fa9955de0710c1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/BeAPI/bea-logger/zipball/654a8a27bcd813161ac2832633fa9955de0710c1",
+            "reference": "654a8a27bcd813161ac2832633fa9955de0710c1",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "time": "2016-08-17T08:02:51+00:00",
+        "type": "wordpress-muplugin",
+        "installation-source": "dist",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas JUEN",
+                "email": "njuen@beapi.fr"
+            }
+        ],
+        "description": "Basic WordPress log class",
+        "support": {
+            "source": "https://github.com/BeAPI/bea-logger/tree/0.3",
+            "issues": "https://github.com/BeAPI/bea-logger/issues"
+        }
+    },
+    {
+        "name": "bea/missed-schedule",
+        "version": "0.2",
+        "version_normalized": "0.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/BeAPI/bea-missed-schedule.git",
+            "reference": "390a160fc1af6f5c474b13318332afec0dbebbbb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/BeAPI/bea-missed-schedule/zipball/390a160fc1af6f5c474b13318332afec0dbebbbb",
+            "reference": "390a160fc1af6f5c474b13318332afec0dbebbbb",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "time": "2018-06-14T10:55:20+00:00",
+        "type": "wordpress-muplugin",
+        "installation-source": "dist",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "BeAPI",
+                "email": "technique@beapi.fr"
+            }
+        ],
+        "description": "Fix Missed Schedule Future Posts",
+        "support": {
+            "source": "https://github.com/BeAPI/bea-missed-schedule/tree/0.2",
+            "issues": "https://github.com/BeAPI/bea-missed-schedule/issues"
+        }
+    },
+    {
+        "name": "bea/plugin-redirection",
+        "version": "1.0.3",
+        "version_normalized": "1.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/BeAPI/bea-plugin-redirection.git",
+            "reference": "6e2384144e1ca006491f68141c00db5c4f9736ff"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/BeAPI/bea-plugin-redirection/zipball/6e2384144e1ca006491f68141c00db5c4f9736ff",
+            "reference": "6e2384144e1ca006491f68141c00db5c4f9736ff",
+            "shasum": ""
+        },
+        "time": "2018-08-22T08:03:28+00:00",
+        "type": "wordpress-muplugin",
+        "installation-source": "dist",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "BeAPI",
+                "email": "human@beapi.fr"
+            }
+        ],
+        "description": "This plugin force no monitor logs, 404, modified posts in Redirection plugin",
+        "support": {
+            "source": "https://github.com/BeAPI/bea-plugin-redirection/tree/1.0.3",
+            "issues": "https://github.com/BeAPI/bea-plugin-redirection/issues"
+        }
+    },
+    {
+        "name": "bea/prod-images",
+        "version": "0.1.7",
+        "version_normalized": "0.1.7.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/BeAPI/prod-images.git",
+            "reference": "42500b12da8e5f709a6f78ca071cb69f660f74d3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/BeAPI/prod-images/zipball/42500b12da8e5f709a6f78ca071cb69f660f74d3",
+            "reference": "42500b12da8e5f709a6f78ca071cb69f660f74d3",
+            "shasum": ""
+        },
+        "time": "2018-03-14T16:43:48+00:00",
+        "type": "wordpress-muplugin",
+        "installation-source": "dist",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "BeAPI",
+                "email": "technique@beapi.fr"
+            }
+        ],
+        "description": "This plugin allow to build development environment without copy data from uploads folder. Manage an failback with PHP and production assets.",
+        "support": {
+            "source": "https://github.com/BeAPI/prod-images/tree/0.1.7",
+            "issues": "https://github.com/BeAPI/prod-images/issues"
+        }
+    },
+    {
+        "name": "bea/sanitize-filename",
+        "version": "2.0.6",
+        "version_normalized": "2.0.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/BeAPI/bea-sanitize-filename.git",
+            "reference": "a15bae64ca72360c01d77b5b0f6b9d7b7c278121"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/BeAPI/bea-sanitize-filename/zipball/a15bae64ca72360c01d77b5b0f6b9d7b7c278121",
+            "reference": "a15bae64ca72360c01d77b5b0f6b9d7b7c278121",
+            "shasum": ""
+        },
+        "time": "2018-10-05T16:10:16+00:00",
+        "type": "wordpress-muplugin",
+        "installation-source": "dist",
+        "license": [
+            "GPL-3.0+"
+        ],
+        "authors": [
+            {
+                "name": "Be API",
+                "email": "technique@beapi.fr",
+                "homepage": "https://beapi.fr/"
+            }
+        ],
+        "description": "Remove all punctuation and accents from the filename of uploaded files.",
+        "homepage": "https://github.com/BeAPI/bea-sanitize-filename",
+        "keywords": [
+            "media",
+            "sanitize",
+            "uploads",
+            "wordpress",
+            "wordpress-mu-plugin",
+            "wordpress-plugin"
+        ],
+        "support": {
+            "source": "https://github.com/BeAPI/bea-sanitize-filename/tree/2.0.6",
+            "issues": "https://github.com/BeAPI/bea-sanitize-filename/issues"
+        }
+    },
+    {
+        "name": "beapi/composer-go-maintenance",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/BeAPI/composer-go-maintenance.git",
+            "reference": "ca0d087adbc21e643afa76141d8e978e37236ad5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/BeAPI/composer-go-maintenance/zipball/ca0d087adbc21e643afa76141d8e978e37236ad5",
+            "reference": "ca0d087adbc21e643afa76141d8e978e37236ad5",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.1",
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "composer/composer": "^1.6"
+        },
+        "time": "2018-09-08T08:17:58+00:00",
+        "type": "composer-plugin",
+        "extra": {
+            "class": "BEA\\Composer\\GoMaintenance\\GoMaintenance"
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "BEA\\Composer\\GoMaintenance\\": "src"
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "BeAPI",
+                "email": "technical@beapi.fr"
+            }
+        ],
+        "support": {
+            "source": "https://github.com/BeAPI/composer-go-maintenance/tree/master",
+            "issues": "https://github.com/BeAPI/composer-go-maintenance/issues"
+        }
+    },
+    {
+        "name": "beapi/composer-scaffold-theme",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/BeAPI/composer-scaffold-theme.git",
+            "reference": "5b2e3d59964ae6503b85a197badec81830525186"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/BeAPI/composer-scaffold-theme/zipball/5b2e3d59964ae6503b85a197badec81830525186",
+            "reference": "5b2e3d59964ae6503b85a197badec81830525186",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.1",
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "composer/composer": "^1.6"
+        },
+        "time": "2018-09-07T12:49:09+00:00",
+        "type": "composer-plugin",
+        "extra": {
+            "class": "BEA\\Composer\\ScaffoldTheme\\ScaffoldTheme"
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "BEA\\Composer\\ScaffoldTheme\\": "src"
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "BeAPI",
+                "email": "technical@beapi.fr"
+            }
+        ],
+        "support": {
+            "source": "https://github.com/BeAPI/composer-scaffold-theme/tree/master",
+            "issues": "https://github.com/BeAPI/composer-scaffold-theme/issues"
+        }
+    },
+    {
+        "name": "beapi/wp-mu-loader",
+        "version": "v1.0.3",
+        "version_normalized": "1.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/BeAPI/wp-mu-loader.git",
+            "reference": "d5d09d2c78ec58d409861ebf5230b61ed3a9e6af"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/BeAPI/wp-mu-loader/zipball/d5d09d2c78ec58d409861ebf5230b61ed3a9e6af",
+            "reference": "d5d09d2c78ec58d409861ebf5230b61ed3a9e6af",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "suggest": {
+            "wemakecustom/wp-mu-composer": "Composer includer"
+        },
+        "time": "2016-08-26T16:02:21+00:00",
+        "type": "wordpress-muplugin",
+        "extra": {
+            "installer-name": "mu-loader"
+        },
+        "installation-source": "dist",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "WeMakeCustom",
+                "email": "info@wemakecustom.com",
+                "homepage": "http://www.wemakecustom.com"
+            },
+            {
+                "name": "BeAPI",
+                "email": "humans@beapi.fr",
+                "homepage": "http://www.beapi.fr"
+            }
+        ],
+        "description": "Enables the loading of Wordpress plugins sitting in mu-plugins (as folders)",
+        "keywords": [
+            "plugins",
+            "wordpress"
+        ],
+        "support": {
+            "source": "https://github.com/BeAPI/wp-mu-loader/tree/v1.0.3"
+        }
+    },
+    {
+        "name": "composer/installers",
+        "version": "v1.6.0",
+        "version_normalized": "1.6.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/composer/installers.git",
+            "reference": "cfcca6b1b60bc4974324efb5783c13dca6932b5b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/composer/installers/zipball/cfcca6b1b60bc4974324efb5783c13dca6932b5b",
+            "reference": "cfcca6b1b60bc4974324efb5783c13dca6932b5b",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.0"
+        },
+        "replace": {
+            "roundcube/plugin-installer": "*",
+            "shama/baton": "*"
+        },
+        "require-dev": {
+            "composer/composer": "1.0.*@dev",
+            "phpunit/phpunit": "^4.8.36"
+        },
+        "time": "2018-08-27T06:10:37+00:00",
+        "type": "composer-plugin",
+        "extra": {
+            "class": "Composer\\Installers\\Plugin",
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Composer\\Installers\\": "src/Composer/Installers"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kyle Robinson Young",
+                "email": "kyle@dontkry.com",
+                "homepage": "https://github.com/shama"
+            }
+        ],
+        "description": "A multi-framework Composer library installer",
+        "homepage": "https://composer.github.io/installers/",
+        "keywords": [
+            "Craft",
+            "Dolibarr",
+            "Eliasis",
+            "Hurad",
+            "ImageCMS",
+            "Kanboard",
+            "Lan Management System",
+            "MODX Evo",
+            "Mautic",
+            "Maya",
+            "OXID",
+            "Plentymarkets",
+            "Porto",
+            "RadPHP",
+            "SMF",
+            "Thelia",
+            "WolfCMS",
+            "agl",
+            "aimeos",
+            "annotatecms",
+            "attogram",
+            "bitrix",
+            "cakephp",
+            "chef",
+            "cockpit",
+            "codeigniter",
+            "concrete5",
+            "croogo",
+            "dokuwiki",
+            "drupal",
+            "eZ Platform",
+            "elgg",
+            "expressionengine",
+            "fuelphp",
+            "grav",
+            "installer",
+            "itop",
+            "joomla",
+            "kohana",
+            "laravel",
+            "lavalite",
+            "lithium",
+            "magento",
+            "majima",
+            "mako",
+            "mediawiki",
+            "modulework",
+            "modx",
+            "moodle",
+            "osclass",
+            "phpbb",
+            "piwik",
+            "ppi",
+            "puppet",
+            "pxcms",
+            "reindex",
+            "roundcube",
+            "shopware",
+            "silverstripe",
+            "sydes",
+            "symfony",
+            "typo3",
+            "wordpress",
+            "yawik",
+            "zend",
+            "zikula"
+        ]
+    },
+    {
+        "name": "johnpbloch/wordpress",
+        "version": "5.0.1",
+        "version_normalized": "5.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/johnpbloch/wordpress.git",
+            "reference": "626154d321d92b76809f8f0c09b2e0c105939346"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/626154d321d92b76809f8f0c09b2e0c105939346",
+            "reference": "626154d321d92b76809f8f0c09b2e0c105939346",
+            "shasum": ""
+        },
+        "require": {
+            "johnpbloch/wordpress-core": "5.0.1",
+            "johnpbloch/wordpress-core-installer": "^1.0",
+            "php": ">=5.3.2"
+        },
+        "time": "2018-12-13T03:42:31+00:00",
+        "type": "package",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "WordPress Community",
+                "homepage": "http://wordpress.org/about/"
+            }
+        ],
+        "description": "WordPress is web software you can use to create a beautiful website or blog.",
+        "homepage": "http://wordpress.org/",
+        "keywords": [
+            "blog",
+            "cms",
+            "wordpress"
+        ]
+    },
+    {
+        "name": "johnpbloch/wordpress-core",
+        "version": "5.0.1",
+        "version_normalized": "5.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/johnpbloch/wordpress-core.git",
+            "reference": "ffff6b26223a1f051a21420ddeaf3528a1425f13"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/ffff6b26223a1f051a21420ddeaf3528a1425f13",
+            "reference": "ffff6b26223a1f051a21420ddeaf3528a1425f13",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2"
+        },
+        "provide": {
+            "wordpress/core-implementation": "5.0.1"
+        },
+        "time": "2018-12-13T03:42:25+00:00",
+        "type": "wordpress-core",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "WordPress Community",
+                "homepage": "http://wordpress.org/about/"
+            }
+        ],
+        "description": "WordPress is web software you can use to create a beautiful website or blog.",
+        "homepage": "http://wordpress.org/",
+        "keywords": [
+            "blog",
+            "cms",
+            "wordpress"
+        ]
+    },
+    {
+        "name": "johnpbloch/wordpress-core-installer",
+        "version": "1.0.2",
+        "version_normalized": "1.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/johnpbloch/wordpress-core-installer.git",
+            "reference": "fd12f5cfe27223b92b0f4bbc097059eb23cc56c4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/fd12f5cfe27223b92b0f4bbc097059eb23cc56c4",
+            "reference": "fd12f5cfe27223b92b0f4bbc097059eb23cc56c4",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.0"
+        },
+        "conflict": {
+            "composer/installers": "<1.0.6"
+        },
+        "require-dev": {
+            "composer/composer": "^1.0",
+            "phpunit/phpunit": ">=4.8.35"
+        },
+        "time": "2018-11-09T20:10:38+00:00",
+        "type": "composer-plugin",
+        "extra": {
+            "class": "johnpbloch\\Composer\\WordPressCorePlugin"
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "johnpbloch\\Composer\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "John P. Bloch",
+                "email": "me@johnpbloch.com"
+            }
+        ],
+        "description": "A custom installer to handle deploying WordPress with composer",
+        "keywords": [
+            "wordpress"
+        ]
+    },
+    {
+        "name": "mustache/mustache",
+        "version": "v2.12.0",
+        "version_normalized": "2.12.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/bobthecow/mustache.php.git",
+            "reference": "fe8fe72e9d580591854de404cc59a1b83ca4d19e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/bobthecow/mustache.php/zipball/fe8fe72e9d580591854de404cc59a1b83ca4d19e",
+            "reference": "fe8fe72e9d580591854de404cc59a1b83ca4d19e",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.4"
+        },
+        "require-dev": {
+            "friendsofphp/php-cs-fixer": "~1.11",
+            "phpunit/phpunit": "~3.7|~4.0|~5.0"
+        },
+        "time": "2017-07-11T12:54:05+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Mustache": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Justin Hileman",
+                "email": "justin@justinhileman.info",
+                "homepage": "http://justinhileman.com"
+            }
+        ],
+        "description": "A Mustache implementation in PHP.",
+        "homepage": "https://github.com/bobthecow/mustache.php",
+        "keywords": [
+            "mustache",
+            "templating"
+        ]
+    },
+    {
+        "name": "pimple/pimple",
+        "version": "v3.2.3",
+        "version_normalized": "3.2.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/silexphp/Pimple.git",
+            "reference": "9e403941ef9d65d20cba7d54e29fe906db42cf32"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/silexphp/Pimple/zipball/9e403941ef9d65d20cba7d54e29fe906db42cf32",
+            "reference": "9e403941ef9d65d20cba7d54e29fe906db42cf32",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0",
+            "psr/container": "^1.0"
+        },
+        "require-dev": {
+            "symfony/phpunit-bridge": "^3.2"
+        },
+        "time": "2018-01-21T07:42:36+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.2.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Pimple": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            }
+        ],
+        "description": "Pimple, a simple Dependency Injection Container",
+        "homepage": "http://pimple.sensiolabs.org",
+        "keywords": [
+            "container",
+            "dependency injection"
+        ]
+    },
+    {
+        "name": "plugin-planet/bbq-pro",
+        "version": "2.1",
+        "version_normalized": "2.1.0.0",
+        "dist": {
+            "type": "zip",
+            "url": "https://packages.beapi.fr/plugin-planet/bbq-pro-2.1.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist"
+    },
+    {
+        "name": "psr/container",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/container.git",
+            "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+            "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2017-02-14T16:28:37+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Container\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common Container Interface (PHP FIG PSR-11)",
+        "homepage": "https://github.com/php-fig/container",
+        "keywords": [
+            "PSR-11",
+            "container",
+            "container-interface",
+            "container-interop",
+            "psr"
+        ]
+    },
+    {
+        "name": "rarst/laps",
+        "version": "2.0",
+        "version_normalized": "2.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Rarst/laps.git",
+            "reference": "c874c19c9183469101ee39d0b4471c33375d3381"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Rarst/laps/zipball/c874c19c9183469101ee39d0b4471c33375d3381",
+            "reference": "c874c19c9183469101ee39d0b4471c33375d3381",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "~1.0",
+            "mustache/mustache": "~2.4",
+            "php": ">=5.6",
+            "pimple/pimple": "^3.2.3",
+            "symfony/stopwatch": "^3.4.4"
+        },
+        "require-dev": {
+            "brain/monkey": "^2.2",
+            "pds/skeleton": "^1.0",
+            "twbs/bootstrap": "~3.2"
+        },
+        "time": "2018-02-26T08:42:11+00:00",
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Rarst\\Laps\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Andrey Savchenko",
+                "homepage": "http://www.Rarst.net/"
+            }
+        ],
+        "description": "Light WordPress profiler.",
+        "homepage": "https://github.com/Rarst/laps",
+        "keywords": [
+            "performance",
+            "wordpress"
+        ]
+    },
+    {
+        "name": "roots/wp-password-bcrypt",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/roots/wp-password-bcrypt.git",
+            "reference": "5cecd2e98ccc3193443cc5c5db9b3bc7abed5ffa"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/roots/wp-password-bcrypt/zipball/5cecd2e98ccc3193443cc5c5db9b3bc7abed5ffa",
+            "reference": "5cecd2e98ccc3193443cc5c5db9b3bc7abed5ffa",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "~1.0",
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "brain/monkey": "^1.3.1",
+            "mockery/mockery": "^0.9.4",
+            "phpunit/phpunit": "^4.8.23|^5.2.9",
+            "squizlabs/php_codesniffer": "^2.5.1"
+        },
+        "time": "2016-03-01T16:27:06+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "wp-password-bcrypt.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Scott Walkinshaw",
+                "email": "scott.walkinshaw@gmail.com",
+                "homepage": "https://github.com/swalkinshaw"
+            },
+            {
+                "name": "qwp6t",
+                "homepage": "https://github.com/qwp6t"
+            },
+            {
+                "name": "Jan Pingel",
+                "email": "jpingel@bitpiston.com",
+                "homepage": "http://janpingel.com"
+            }
+        ],
+        "description": "WordPress plugin which replaces wp_hash_password and wp_check_password's phpass hasher with PHP 5.5's password_hash and password_verify using bcrypt.",
+        "homepage": "https://roots.io/plugins/wp-password-bcrypt",
+        "keywords": [
+            "wordpress wp bcrypt password"
+        ]
+    },
+    {
+        "name": "symfony/stopwatch",
+        "version": "v3.4.20",
+        "version_normalized": "3.4.20.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/stopwatch.git",
+            "reference": "0f43969ab2718de55c1c1158dce046668079788d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/stopwatch/zipball/0f43969ab2718de55c1c1158dce046668079788d",
+            "reference": "0f43969ab2718de55c1c1158dce046668079788d",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8"
+        },
+        "time": "2018-11-11T19:48:54+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Stopwatch\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Stopwatch Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "wpackagist-plugin/broken-link-checker",
+        "version": "1.11.5",
+        "version_normalized": "1.11.5.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/broken-link-checker/",
+            "reference": "tags/1.11.5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/broken-link-checker.1.11.5.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/broken-link-checker/"
+    },
+    {
+        "name": "wpackagist-plugin/cookie-notice",
+        "version": "1.2.45",
+        "version_normalized": "1.2.45.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/cookie-notice/",
+            "reference": "tags/1.2.45"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/cookie-notice.1.2.45.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/cookie-notice/"
+    },
+    {
+        "name": "wpackagist-plugin/debug",
+        "version": "1.8",
+        "version_normalized": "1.8.0.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/debug/",
+            "reference": "tags/1.8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/debug.1.8.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/debug/"
+    },
+    {
+        "name": "wpackagist-plugin/debug-bar",
+        "version": "1.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/debug-bar/",
+            "reference": "tags/1.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/debug-bar.1.0.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/debug-bar/"
+    },
+    {
+        "name": "wpackagist-plugin/debug-bar-actions-and-filters-addon",
+        "version": "1.5.4",
+        "version_normalized": "1.5.4.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/debug-bar-actions-and-filters-addon/",
+            "reference": "tags/1.5.4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/debug-bar-actions-and-filters-addon.1.5.4.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/debug-bar-actions-and-filters-addon/"
+    },
+    {
+        "name": "wpackagist-plugin/debug-bar-cache-lookup",
+        "version": "0.1.1",
+        "version_normalized": "0.1.1.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/debug-bar-cache-lookup/",
+            "reference": "tags/0.1.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/debug-bar-cache-lookup.0.1.1.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/debug-bar-cache-lookup/"
+    },
+    {
+        "name": "wpackagist-plugin/debug-bar-cron",
+        "version": "0.1.3",
+        "version_normalized": "0.1.3.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/debug-bar-cron/",
+            "reference": "tags/0.1.3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/debug-bar-cron.0.1.3.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/debug-bar-cron/"
+    },
+    {
+        "name": "wpackagist-plugin/debug-bar-extender",
+        "version": "0.5",
+        "version_normalized": "0.5.0.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/debug-bar-extender/",
+            "reference": "trunk"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/debug-bar-extender.zip?timestamp=1314968773",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/debug-bar-extender/"
+    },
+    {
+        "name": "wpackagist-plugin/debug-bar-list-dependencies",
+        "version": "1.1.2",
+        "version_normalized": "1.1.2.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/debug-bar-list-dependencies/",
+            "reference": "tags/1.1.2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/debug-bar-list-dependencies.1.1.2.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/debug-bar-list-dependencies/"
+    },
+    {
+        "name": "wpackagist-plugin/debug-bar-shortcodes",
+        "version": "2.0.3",
+        "version_normalized": "2.0.3.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/debug-bar-shortcodes/",
+            "reference": "tags/2.0.3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/debug-bar-shortcodes.2.0.3.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/debug-bar-shortcodes/"
+    },
+    {
+        "name": "wpackagist-plugin/debug-bar-slow-actions",
+        "version": "0.8.4",
+        "version_normalized": "0.8.4.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/debug-bar-slow-actions/",
+            "reference": "tags/0.8.4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/debug-bar-slow-actions.0.8.4.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/debug-bar-slow-actions/"
+    },
+    {
+        "name": "wpackagist-plugin/delete-expired-transients",
+        "version": "2.0.7",
+        "version_normalized": "2.0.7.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/delete-expired-transients/",
+            "reference": "tags/2.0.7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/delete-expired-transients.2.0.7.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/delete-expired-transients/"
+    },
+    {
+        "name": "wpackagist-plugin/disable-embeds",
+        "version": "1.3.0",
+        "version_normalized": "1.3.0.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/disable-embeds/",
+            "reference": "trunk"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/disable-embeds.zip?timestamp=1522053177",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/disable-embeds/"
+    },
+    {
+        "name": "wpackagist-plugin/disable-emojis",
+        "version": "1.7.2",
+        "version_normalized": "1.7.2.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/disable-emojis/",
+            "reference": "tags/1.7.2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/disable-emojis.1.7.2.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/disable-emojis/"
+    },
+    {
+        "name": "wpackagist-plugin/duracelltomi-google-tag-manager",
+        "version": "1.9",
+        "version_normalized": "1.9.0.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/duracelltomi-google-tag-manager/",
+            "reference": "tags/1.9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/duracelltomi-google-tag-manager.1.9.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/duracelltomi-google-tag-manager/"
+    },
+    {
+        "name": "wpackagist-plugin/login-security-solution",
+        "version": "0.56.0",
+        "version_normalized": "0.56.0.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/login-security-solution/",
+            "reference": "trunk"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/login-security-solution.zip?timestamp=1471108786",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/login-security-solution/"
+    },
+    {
+        "name": "wpackagist-plugin/optimus",
+        "version": "1.6.0",
+        "version_normalized": "1.6.0.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/optimus/",
+            "reference": "tags/1.6.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/optimus.1.6.0.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/optimus/"
+    },
+    {
+        "name": "wpackagist-plugin/redirection",
+        "version": "3.6.3",
+        "version_normalized": "3.6.3.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/redirection/",
+            "reference": "tags/3.6.3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/redirection.3.6.3.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/redirection/"
+    },
+    {
+        "name": "wpackagist-plugin/rewrite-rules-inspector",
+        "version": "1.2.1",
+        "version_normalized": "1.2.1.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/rewrite-rules-inspector/",
+            "reference": "tags/1.2.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/rewrite-rules-inspector.1.2.1.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/rewrite-rules-inspector/"
+    },
+    {
+        "name": "wpackagist-plugin/sucuri-scanner",
+        "version": "1.8.19",
+        "version_normalized": "1.8.19.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/sucuri-scanner/",
+            "reference": "tags/1.8.19"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/sucuri-scanner.1.8.19.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/sucuri-scanner/"
+    },
+    {
+        "name": "wpackagist-plugin/user-switching",
+        "version": "1.4.0",
+        "version_normalized": "1.4.0.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/user-switching/",
+            "reference": "tags/1.4.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/user-switching.1.4.0.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/user-switching/"
+    },
+    {
+        "name": "wpackagist-plugin/wordpress-seo",
+        "version": "9.2.1",
+        "version_normalized": "9.2.1.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
+            "reference": "tags/9.2.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/wordpress-seo.9.2.1.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/wordpress-seo/"
+    },
+    {
+        "name": "wpackagist-plugin/wp-email-debug",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/wp-email-debug/",
+            "reference": "trunk"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/wp-email-debug.zip?timestamp=1443668990",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/wp-email-debug/"
+    },
+    {
+        "name": "wpackagist-plugin/wp-native-php-sessions",
+        "version": "0.6.9",
+        "version_normalized": "0.6.9.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/wp-native-php-sessions/",
+            "reference": "tags/0.6.9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/wp-native-php-sessions.0.6.9.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/wp-native-php-sessions/"
+    },
+    {
+        "name": "wpackagist-plugin/wp-newrelic",
+        "version": "1.3",
+        "version_normalized": "1.3.0.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/wp-newrelic/",
+            "reference": "tags/1.3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/wp-newrelic.1.3.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/wp-newrelic/"
+    },
+    {
+        "name": "wpackagist-plugin/wp-redis",
+        "version": "0.7.1",
+        "version_normalized": "0.7.1.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/wp-redis/",
+            "reference": "tags/0.7.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/wp-redis.0.7.1.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/wp-redis/"
+    },
+    {
+        "name": "wpackagist-plugin/wp-security-audit-log",
+        "version": "3.3",
+        "version_normalized": "3.3.0.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/wp-security-audit-log/",
+            "reference": "tags/3.3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/wp-security-audit-log.3.3.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/wp-security-audit-log/"
+    }
+]

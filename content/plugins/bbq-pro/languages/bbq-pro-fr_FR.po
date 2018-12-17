@@ -1,0 +1,1698 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BBQ Pro\n"
+"POT-Creation-Date: 2017-05-03 20:42+0200\n"
+"PO-Revision-Date: 2017-05-03 21:34+0200\n"
+"Last-Translator: Bouzin <info@conceptiweb.com>\n"
+"Language-Team: Bouzin <info@conceptiweb.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: bbq-pro.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: bbq-pro.php:116
+msgid ""
+"should not be run with the free version of BBQ (there is no need for both "
+"plugins). "
+msgstr ""
+"ne devrait pas être exécuté avec la version gratuite de BBQ (il n'y a pas "
+"besoin de deux plugins). "
+
+#: bbq-pro.php:117 bbq-pro.php:130
+msgid "Please return to the"
+msgstr "Merci de retourner dans"
+
+#: bbq-pro.php:117 bbq-pro.php:130
+msgid "WP Admin Area"
+msgstr "Zone d'administration"
+
+#: bbq-pro.php:117
+msgid "to deactivate the free version and try again."
+msgstr "pour désactiver la version gratuite et essayez à nouveau."
+
+#: bbq-pro.php:129
+msgid "requires WordPress "
+msgstr "nécessite WordPress "
+
+#: bbq-pro.php:129
+msgid " or higher, and has been deactivated. "
+msgstr " ou plus, et a été désactivé. "
+
+#: bbq-pro.php:130
+msgid "to upgrade WordPress and try again."
+msgstr "pour mettre à jour WordPress et réessayer."
+
+#: bbq-pro.php:142 bbq-pro.php:146
+msgid "Cheatin&rsquo; huh?"
+msgstr "Vous trichez&rsquo; euh?"
+
+#: inc/bbq-core.php:220
+msgid "Error: Invalid IP Address"
+msgstr "Erreur: Adresse IP invalide"
+
+#: inc/bbq-core.php:265
+msgid "BBQ Pro: Invalid IP Address: "
+msgstr "BBQ Pro: Adresse IP invalide: "
+
+#: inc/contextual-help.php:7 inc/contextual-help.php:84
+msgid "More Information"
+msgstr "Détails de l'offre"
+
+#: inc/contextual-help.php:10 inc/display-patterns.php:43
+#: inc/display-tools.php:17 inc/register-settings.php:34
+msgid "Visit the"
+msgstr "Consultez l'onglet"
+
+#: inc/contextual-help.php:10
+msgid "BBQ Docs"
+msgstr "Documentation BBQ"
+
+#: inc/contextual-help.php:10
+msgid "at Plugin Planet."
+msgstr "chez Plugin Planet."
+
+#: inc/contextual-help.php:14
+msgid "Report an issue in the"
+msgstr "Signaler un problème dans le"
+
+#: inc/contextual-help.php:14
+msgid "BBQ Support Forum"
+msgstr "Forum de Support BBQ"
+
+#: inc/contextual-help.php:15
+msgid "Contact the plugin developer"
+msgstr "Contactez le développeur du plugin"
+
+#: inc/contextual-help.php:15
+msgid "for help."
+msgstr "demandez de l’aide."
+
+#: inc/contextual-help.php:18
+msgid "Support BBQ Pro!"
+msgstr "Support BBQ Pro!"
+
+#: inc/contextual-help.php:18
+msgid "Make a donation&nbsp;&raquo;"
+msgstr "Faire un don&nbsp;&raquo;"
+
+#: inc/contextual-help.php:47
+msgid "Introduction"
+msgstr "Introduction"
+
+#: inc/contextual-help.php:49
+msgid "Welcome to BBQ Pro"
+msgstr "Bienvenue chez BBQ Pro"
+
+#: inc/contextual-help.php:52
+msgid ""
+"BBQ Pro is a lightweight and flexible firewall that protects your site from "
+"bad HTTP requests. "
+msgstr ""
+"BBQ Pro est un pare-feu léger et flexible qui protège votre site contre de "
+"mauvaises demandes HTTP. "
+
+#: inc/contextual-help.php:53
+msgid "You can customize BBQ Pro via"
+msgstr "Vous pouvez personnaliser BBQ Pro via"
+
+#: inc/contextual-help.php:53
+msgid "BBQ Settings"
+msgstr "Paramètres BBQ"
+
+#: inc/contextual-help.php:54
+msgid "and you can fine-tune blocked requests via"
+msgstr "et vous pouvez affiner les requêtes bloquées via"
+
+#: inc/contextual-help.php:54 inc/contextual-help.php:303
+#: inc/contextual-help.php:372 inc/contextual-help.php:374
+msgid "BBQ Patterns"
+msgstr "Les modèles BBQ"
+
+#: inc/contextual-help.php:57
+msgid "Useful BBQ Resources"
+msgstr "Ressources utiles BBQ"
+
+#: inc/contextual-help.php:60
+msgid "View the plugin&rsquo;s readme.txt"
+msgstr "Découvre le Plugin&rsquo;s readme.txt"
+
+#: inc/contextual-help.php:61
+msgid "Log in to your account at Plugin Planet"
+msgstr "Connectez-vous à votre compte Plugin Planet"
+
+#: inc/contextual-help.php:62
+msgid "Get help in the Support Forum"
+msgstr "Obtenez de l'aide dans le forum d'assistance"
+
+#: inc/contextual-help.php:63
+msgid "Contact the plugin developer for help"
+msgstr "Contactez le développeur du plugin pour obtenir de l'aide"
+
+#: inc/contextual-help.php:66
+msgid "About the Developer"
+msgstr "A propos du développeur"
+
+#: inc/contextual-help.php:69
+msgid "BBQ Pro is developed by"
+msgstr "BBQ Pro est développé par"
+
+#. Author of the plugin/theme
+#: inc/contextual-help.php:69
+msgid "Jeff Starr"
+msgstr "Jeff Starr"
+
+#: inc/contextual-help.php:70
+msgid "10-year WordPress veteran and"
+msgstr "Ancien combattant WordPress de 10 ans et"
+
+#: inc/contextual-help.php:70
+msgid "book author"
+msgstr "auteur du livre"
+
+#: inc/contextual-help.php:78
+msgid "Enable/Disable"
+msgstr "Activer/désactiver"
+
+#: inc/contextual-help.php:80
+msgid "Enable/Disable Indicator"
+msgstr "Indicateur d'activation / désactivation"
+
+#: inc/contextual-help.php:82
+msgid ""
+"When BBQ is active, the text &ldquo;BBQ is Enabled&rdquo; is displayed in "
+"green. When disabled, the text &ldquo;BBQ is Disabled&rdquo; is displayed in "
+"red."
+msgstr ""
+"Lorsque BBQ est actif, le texte &ldquo;BBQ est activé&rdquo; s'affiche en "
+"vert. Lorsqu'il est désactivé, le texte &ldquo;BBQ is Disabled\" est affiché "
+"en rouge."
+
+#: inc/contextual-help.php:87
+msgid ""
+"Each set of rules (Basic, Advanced, and Custom) consists of numerous "
+"individual patterns. Each of these patterns may be enabled or disabled via "
+"the &ldquo;Patterns&rdquo; screen. "
+msgstr ""
+"Chaque ensemble de règles (Basic, Avancée et Personnalisé) se compose de "
+"nombreux modèles individuels. Chacun de ces motifs peut être activé ou "
+"désactivé via l'écran &ldquo;Patterns&rdquo;. "
+
+#: inc/contextual-help.php:88
+msgid ""
+"At least one pattern must be active in order for the Enable/Disable "
+"Indicator to display as &ldquo;Enabled&rdquo;. "
+msgstr ""
+"Au moins un motif doit être actif afin que l'indicateur d'activation / "
+"désactivation s'affiche comme &ldquo;Activé&rdquo;. "
+
+#: inc/contextual-help.php:92
+msgid ""
+"So for example, let&rsquo;s say that only the Basic Rules are enabled for "
+"your site (i.e., the Advanced and Custom Rules are disabled). "
+msgstr ""
+"Donc, par exemple, disons que seules les règles de base sont activées pour "
+"votre site (c'est-à-dire que les règles avancées et personnalisées sont "
+"désactivées). "
+
+#: inc/contextual-help.php:93
+msgid ""
+"That is perfectly fine, but now let&rsquo;s say that all of the patterns for "
+"the Basic Rules are disabled (i.e., unchecked boxes for all patterns). "
+msgstr ""
+"C'est parfaitement bien, mais maintenant, disons que tous les modèles des "
+"règles de base sont désactivés (c.-à-d., Boîtes non cochées pour tous les "
+"motifs). "
+
+#: inc/contextual-help.php:94
+msgid ""
+"If this were the case, the Enable/Disable Indicator would display as "
+"disabled (red). Then if we enable any basic-rule pattern(s), the Indicator "
+"would display as enabled (green)."
+msgstr ""
+"Si tel était le cas, l'indicateur d'activation / désactivation s'affiche "
+"comme désactivé (rouge). Ensuite, si nous activons n'importe quel modèle de "
+"règle de base, l'indicateur s'affiche comme activé (vert)."
+
+#: inc/contextual-help.php:97 inc/contextual-help.php:116
+msgid "Default: enabled"
+msgstr "Valeur par défaut: activée"
+
+#: inc/contextual-help.php:104 inc/contextual-help.php:106
+#: inc/register-settings.php:14
+msgid "Basic Rules"
+msgstr "Règles de base"
+
+#: inc/contextual-help.php:109
+msgid ""
+"This setting enables BBQ&rsquo;s basic security rules. The Basic Rules are "
+"virtually identical to those provided in the"
+msgstr ""
+"Ce paramètre permet les règles de sécurité de base de BBQ&rsquo;s Les règles "
+"de base sont pratiquement identiques à celles prévues dans le"
+
+#: inc/contextual-help.php:110
+msgid "free version of BBQ"
+msgstr "version gratuite de BBQ"
+
+#: inc/contextual-help.php:111
+msgid ""
+"They are well-tested with WordPress and will protect your site against some "
+"of the most common types of malicious attacks and exploits. "
+msgstr ""
+"Ils sont bien testés avec WordPress et protégeront votre site contre "
+"certains types les plus courants d'attaques et d'exploits malveillants. "
+
+#: inc/contextual-help.php:112
+msgid ""
+"You can fine-tune the Basic Rules by visiting the &ldquo;Basic&rdquo; tab on "
+"the"
+msgstr ""
+"Vous pouvez affiner les règles de base en visitant l'onglet &ldquo;"
+"Basic&rdquo; sur le"
+
+#: inc/contextual-help.php:113 inc/contextual-help.php:139
+#: inc/contextual-help.php:156 inc/display-settings.php:20
+msgid "Patterns"
+msgstr "Les modèles"
+
+#: inc/contextual-help.php:113
+msgid "screen."
+msgstr "écran."
+
+#: inc/contextual-help.php:123 inc/contextual-help.php:125
+#: inc/register-settings.php:15
+msgid "Advanced Rules"
+msgstr "Règles avancées"
+
+#: inc/contextual-help.php:128
+msgid ""
+"This setting enables BBQ&rsquo;s Advanced Rules. This includes further "
+"protection against a variety of malicious attacks. "
+msgstr ""
+"Ce paramètre permet les règles avancées de BBQ&rsquo;s. Ceci inclut une "
+"protection supplémentaire contre une variété d'attaques malveillantes. "
+
+#: inc/contextual-help.php:129
+msgid "The Advanced Rules primarily are derived from the"
+msgstr "Les règles avancées dérivent principalement de"
+
+#: inc/contextual-help.php:130 inc/contextual-help.php:389
+#: inc/contextual-help.php:534
+msgid "5G Firewall"
+msgstr "Pare-feu 5G"
+
+#: inc/contextual-help.php:131 inc/contextual-help.php:390
+#: inc/contextual-help.php:535
+msgid "6G Firewall"
+msgstr "Pare-feu 6G"
+
+#: inc/contextual-help.php:131 inc/contextual-help.php:535
+msgid "and other"
+msgstr "et autres"
+
+#: inc/contextual-help.php:132 inc/contextual-help.php:536
+msgid "security techniques"
+msgstr "techniques de Sécurité"
+
+#: inc/contextual-help.php:136
+msgid ""
+"The Advanced Rules are disabled by default because they are not as widely "
+"tested as BBQ&rsquo;s Basic Rules. "
+msgstr ""
+"Les règles avancées sont désactivées par défaut car elles ne sont pas aussi "
+"largement testées que les règles de base de BBQ&rsquo;s. "
+
+#: inc/contextual-help.php:137
+msgid ""
+"If you enable the Advanced Rules, it is recommended that you test your pages "
+"thoroughly. "
+msgstr ""
+"Si vous activez les règles avancées, il est recommandé de bien tester vos "
+"pages. "
+
+#: inc/contextual-help.php:138
+msgid ""
+"If you discover any issue, you can fine-tune specific patterns by visiting "
+"the &ldquo;Advanced&rdquo; tab on the"
+msgstr ""
+"Si vous découvrez tout problème, vous pouvez affiner les profils spécifiques "
+"en visitant l'onglet &ldquo;Avancé&rdquo; sur le"
+
+#: inc/contextual-help.php:139
+msgid "screen, "
+msgstr "écran, "
+
+#: inc/contextual-help.php:140
+msgid "or you can disable the Advanced Rules altogether via this setting."
+msgstr ""
+"ou vous pouvez désactiver complètement les Règles avancées via ce paramètre."
+
+#: inc/contextual-help.php:143 inc/contextual-help.php:161
+#: inc/contextual-help.php:178 inc/contextual-help.php:195
+#: inc/contextual-help.php:224 inc/contextual-help.php:314
+msgid "Default: disabled"
+msgstr "Désactivé par défaut"
+
+#: inc/contextual-help.php:150 inc/contextual-help.php:152
+#: inc/register-settings.php:16
+msgid "Custom Rules"
+msgstr "Règles personnelles"
+
+#: inc/contextual-help.php:155
+msgid ""
+"This setting enables BBQ&rsquo;s Custom Rules. This enables you to add your "
+"own custom rules to BBQ. "
+msgstr ""
+"Ce paramètre permet les règles personnalisées de BBQ&rsquo;s Cela vous "
+"permet d'ajouter vos propres règles personnalisées. "
+
+#: inc/contextual-help.php:156
+msgid "To do so, visit the &ldquo;Custom&rdquo; tab on the"
+msgstr "Pour ce faire, visitez l'onglet &ldquo;Personnalisé&rdquo; sur le"
+
+#: inc/contextual-help.php:157
+msgid "screen. "
+msgstr "écran. "
+
+#: inc/contextual-help.php:158
+msgid ""
+"If you enable any Custom Rules, it is recommended that you test your pages "
+"thoroughly."
+msgstr ""
+"Si vous activez toutes les règles personnalisées, il est recommandé de "
+"tester vos pages."
+
+#: inc/contextual-help.php:168 inc/contextual-help.php:170
+#: inc/register-settings.php:18
+msgid "Logged-in Users"
+msgstr "Utilisateurs connectés"
+
+#: inc/contextual-help.php:173
+msgid ""
+"This setting disables all BBQ protection for any URL requests that are made "
+"by logged-in users. "
+msgstr ""
+"Ce paramètre désactive toutes les protections BBQ pour toutes les demandes "
+"d'URL effectuées par les utilisateurs connectés. "
+
+#: inc/contextual-help.php:174
+msgid ""
+"The assumption here is that users who have successfully logged in to your "
+"site will not be making malicious URL requests. "
+msgstr ""
+"L'hypothèse ici est que les utilisateurs qui se sont connectés avec succès "
+"sur votre site ne feront pas de requêtes d'URL malveillantes. "
+
+#: inc/contextual-help.php:175
+msgid ""
+"While this may be true for individual admins and trusted teams, it may not "
+"be true for sites with many registered users."
+msgstr ""
+"Bien que cela puisse être vrai pour les administrateurs individuels et les "
+"équipes de confiance, il se peut que cela ne soit pas vrai pour les sites "
+"avec de nombreux utilisateurs enregistrés."
+
+#: inc/contextual-help.php:185 inc/contextual-help.php:187
+#: inc/register-settings.php:19
+msgid "Limit Requests"
+msgstr "Limiter les requêtes"
+
+#: inc/contextual-help.php:190
+msgid ""
+"Malicious URL requests often exceed 255 characters, however some services "
+"require long URLs in order to function. "
+msgstr ""
+"Les demandes d'URL malveillantes dépassent souvent 255 caractères, mais "
+"certains services nécessitent des longues URL pour fonctionner. "
+
+#: inc/contextual-help.php:191
+msgid ""
+"Enable this setting to block requests that exceed 255 characters in length. "
+"Advisable if you are sure that your site does not use any long URLs. "
+msgstr ""
+"Activez ce paramètre pour bloquer les requêtes qui dépassent 255 caractères. "
+"A conseillé si vous êtes sûr que votre site n'utilise pas de longues URL. "
+
+#: inc/contextual-help.php:192
+msgid "If you are unsure, leave this setting disabled."
+msgstr "Si vous n'êtes pas sûr, laissez ce paramètre désactivé."
+
+#: inc/contextual-help.php:202 inc/contextual-help.php:204
+#: inc/register-settings.php:20
+msgid "Strict Mode"
+msgstr "Mode strict"
+
+#: inc/contextual-help.php:207
+msgid ""
+"By default, BBQ Pro checks each request &ldquo;as-is&rdquo;, without "
+"decoding any encoded characters. "
+msgstr ""
+"Par défaut, BBQ Pro vérifie chaque demande &ldquo;tel quel&rdquo;, sans "
+"décoder les caractères codés. "
+
+#: inc/contextual-help.php:208
+msgid "For example, if a request contains"
+msgstr "Par exemple, si une requête contient"
+
+#: inc/contextual-help.php:208
+msgid "unencoded"
+msgstr "non codé"
+
+#: inc/contextual-help.php:209
+msgid "square brackets"
+msgstr "crochets"
+
+#: inc/contextual-help.php:209 inc/contextual-help.php:213
+#: inc/contextual-help.php:389
+msgid "and"
+msgstr "et"
+
+#: inc/contextual-help.php:210
+msgid ""
+"BBQ will block the request because unencoded square brackets are considered"
+msgstr "BBQ va bloquer la demande car les crochets non codés sont considérés"
+
+#: inc/contextual-help.php:211
+msgid "unsafe"
+msgstr "peu sûr"
+
+#: inc/contextual-help.php:212
+msgid "On the other hand, if the request contains"
+msgstr "D'autre part, si la demande contient"
+
+#: inc/contextual-help.php:212
+msgid "encoded"
+msgstr "codé"
+
+#: inc/contextual-help.php:213
+msgid "square brackets,"
+msgstr "crochets,"
+
+#: inc/contextual-help.php:214
+msgid ""
+"BBQ will not block the request because encoded characters are considered "
+"safe."
+msgstr ""
+"BBQ ne bloquera pas la demande car les caractères codés sont considérés "
+"comme sûrs."
+
+#: inc/contextual-help.php:218
+msgid ""
+"When enabled, Strict Mode instructs BBQ to block both unencoded and encoded "
+"variations of all active patterns. So in our example, requests containing "
+"square brackets will be blocked, "
+msgstr ""
+"Lorsqu'il est activé, le mode Strict demande au BBQ de bloquer les "
+"variations non codées et encodées de tous les motifs actifs. Donc, dans "
+"notre exemple, les demandes contenant des crochets seront bloquées, "
+
+#: inc/contextual-help.php:219
+msgid ""
+"regardless of whether or not the brackets are encoded. Likewise for every "
+"active pattern, when Strict Mode is enabled, active patterns will be blocked "
+"even if they are encoded. "
+msgstr ""
+"indépendamment du fait que les crochets soient ou non codés. De même pour "
+"chaque motif actif, lorsque le Mode Strict est activé, les motifs actifs "
+"seront bloqués même s'ils sont encodés. "
+
+#: inc/contextual-help.php:222
+msgid ""
+"If in doubt, leave Strict Mode disabled. Strict Mode exists for advanced "
+"users who want to customize their firewall for maximum protection."
+msgstr ""
+"En cas de doute, laissez Strict Mode désactivé. Le mode Strict existe pour "
+"les utilisateurs avancés qui souhaitent personnaliser leur pare-feu pour une "
+"protection maximale."
+
+#: inc/contextual-help.php:231 inc/contextual-help.php:233
+#: inc/register-settings.php:22
+msgid "Redirect URL"
+msgstr "URL de redirection"
+
+#: inc/contextual-help.php:236 inc/contextual-help.php:258
+msgid ""
+"By default, when BBQ blocks a bad request, it exits and returns a &ldquo;403 "
+"Forbidden&rdquo; status code. "
+msgstr ""
+"Par défaut, lorsque BBQ bloque une mauvaise demande, il sort et renvoie un "
+"code d'état &ldquo;403 Interdit&rdquo. "
+
+#: inc/contextual-help.php:237
+msgid ""
+"If you would rather redirect the bad request to a specific location, you may "
+"enter the URL here. "
+msgstr ""
+"Si vous souhaitez plutôt rediriger la mauvaise demande vers un emplacement "
+"spécifique, vous pouvez entrer l'URL ici. "
+
+#: inc/contextual-help.php:238
+msgid ""
+"See also the setting, &ldquo;Status Code&rdquo; to choose an appropriate "
+"status code. "
+msgstr ""
+"Voir aussi le paramètre &ldquo;Code d'état&rdquo; pour choisir un code "
+"d'état approprié. "
+
+#: inc/contextual-help.php:242
+msgid ""
+"When using this option to redirect blocked requests, a 301 (permanent "
+"redirect) or 302 (temporary/found) status code is required. "
+msgstr ""
+"Lorsque vous utilisez cette option pour rediriger les demandes bloquées, un "
+"code d'état 301 (redirection permanente) ou 302 (temporaire / trouvé) est "
+"requis. "
+
+#: inc/contextual-help.php:243
+msgid ""
+"If a code other than 301 or 302 is specified, a 302 code will be used. Leave "
+"blank for no redirect."
+msgstr ""
+"Si un code autre que 301 ou 302 est spécifié, un code 302 sera utilisé. "
+"Laissez vide pour aucune redirection."
+
+#: inc/contextual-help.php:246
+msgid "Default: blank (no redirect)"
+msgstr "Par défaut: vide (pas de redirection)"
+
+#: inc/contextual-help.php:253 inc/contextual-help.php:255
+#: inc/register-settings.php:23
+msgid "Custom Message"
+msgstr "Message personnalisé"
+
+#: inc/contextual-help.php:259
+msgid ""
+"If you would like to display a custom message, you may enter it here (you "
+"may use text and/or markup). "
+msgstr ""
+"Si vous souhaitez afficher un message personnalisé, vous pouvez l'entrer ici "
+"(vous pouvez utiliser le texte et / ou le balisage). "
+
+#: inc/contextual-help.php:260
+msgid "You may use"
+msgstr "Vous pouvez utiliser"
+
+#: inc/contextual-help.php:260
+msgid "to display the matching pattern. "
+msgstr "pour afficher le modèle correspondant. "
+
+#: inc/contextual-help.php:261
+msgid ""
+"See also the setting, &ldquo;Status Code&rdquo; to choose an appropriate "
+"status code."
+msgstr ""
+"Voir aussi le paramètre &ldquo;Code d'état&rdquo; pour choisir un code "
+"d'état approprié."
+
+#: inc/contextual-help.php:264 inc/contextual-help.php:284
+#: inc/contextual-help.php:309 inc/contextual-help.php:480
+#: inc/contextual-help.php:636 inc/contextual-help.php:648
+#: inc/contextual-help.php:669 inc/contextual-help.php:721
+msgid "Note:"
+msgstr "Remarque :"
+
+#: inc/contextual-help.php:264
+msgid ""
+"If enabled, the setting &ldquo;Redirect URL&rdquo; overrides any custom "
+"message."
+msgstr ""
+"Si activé, le paramètre &ldquo;URL de redirection&rdquo; remplace tout "
+"message personnalisé."
+
+#: inc/contextual-help.php:266
+msgid "Default: blank (no custom message)"
+msgstr "Par défaut: vide (pas de message personnalisé)"
+
+#: inc/contextual-help.php:273 inc/contextual-help.php:275
+#: inc/register-settings.php:24
+msgid "Status Code"
+msgstr "Code de Statut"
+
+#: inc/contextual-help.php:278
+msgid "This setting determines how BBQ responds to blocked requests. "
+msgstr "Ce paramètre détermine comment BBQ répond aux demandes bloquées. "
+
+#: inc/contextual-help.php:279
+msgid ""
+"By default, BBQ responds to blocked requests with a &ldquo;403 &ndash; "
+"Forbidden&rdquo; status code, which is recommended. "
+msgstr ""
+"Par défaut, BBQ répond aux demandes bloquées avec un code d'état &ldquo;403 "
+"&ndash; Prohibé&rdquo; ce qui est recommandé. "
+
+#: inc/contextual-help.php:280
+msgid ""
+"You are free to change the default 403 response to whatever makes sense for "
+"your site."
+msgstr "Vous êtes libre de modifier la réponse 403 par défaut."
+
+#: inc/contextual-help.php:284
+msgid "If you are"
+msgstr "Si vous n'êtes"
+
+#: inc/contextual-help.php:284
+msgid "redirecting"
+msgstr "rediriger"
+
+#: inc/contextual-help.php:285
+msgid ""
+"blocked requests, you must use a 301 or 302 status code (see the setting "
+"&ldquo;Redirect URL&rdquo;). "
+msgstr ""
+"demandes bloquées, vous devez utiliser un code d'état 301 ou 302 (voir le "
+"paramètre &ldquo;de Redirection d'URL&rdquo;). "
+
+#: inc/contextual-help.php:286
+msgid ""
+"It is important to understand that status codes may impact SEO. If in doubt, "
+"use the default setting (recommended)."
+msgstr ""
+"Il est important de comprendre que les codes d'état peuvent avoir un impact "
+"sur le référencement. En cas de doute, utilisez le paramètre par défaut "
+"(recommandé)."
+
+#: inc/contextual-help.php:289
+msgid "Learn more about HTTP status codes"
+msgstr "En savoir plus sur les codes d'état HTTP"
+
+#: inc/contextual-help.php:291
+msgid "Default: 403 Forbidden"
+msgstr "Par défaut: 403 Interdit"
+
+#: inc/contextual-help.php:298 inc/contextual-help.php:300
+#: inc/register-settings.php:26
+msgid "Remove Disabled"
+msgstr "Supprimer désactivé"
+
+#: inc/contextual-help.php:303
+msgid "Enable this setting to remove any disabled (unselected)"
+msgstr ""
+"Activez ce paramètre pour supprimer et tout désactivé (non sélectionné)"
+
+#: inc/contextual-help.php:304
+msgid ""
+"After enabling this setting, visit the BBQ Patterns and click the &ldquo;"
+"Save Changes&rdquo; button for each section (Basic, Advanced, and Custom). "
+msgstr ""
+"Après avoir activé ce paramètre, visitez les modèles BBQ et cliquez sur le "
+"bouton &ldquo;Enregistrer les modifications&rdquo; pour chaque section (De "
+"base, Avancée et Personnaliser). "
+
+#: inc/contextual-help.php:305
+msgid "If you are unsure about this setting, leave it disabled."
+msgstr "Si vous n'êtes pas sûr de ce paramètre, laissez-le désactiver."
+
+#: inc/contextual-help.php:310
+msgid "To restore default settings and patterns, either visit the"
+msgstr "Pour restaurer les paramètres par défaut et les modèles, visitez le"
+
+#: inc/contextual-help.php:310 inc/display-settings.php:21
+msgid "Tools"
+msgstr "Outils"
+
+#: inc/contextual-help.php:311
+msgid "screen or uninstall and reinstall the plugin."
+msgstr "écran ou désinstallez et réinstallez le plugin."
+
+#: inc/contextual-help.php:321 inc/contextual-help.php:323
+#: inc/register-settings.php:27
+msgid "Whitelist IPs"
+msgstr "IP de liste blanche"
+
+#: inc/contextual-help.php:326
+msgid ""
+"This setting enables you to whitelist (always allow) access from a list of "
+"IP addresses. "
+msgstr ""
+"Ce paramètre vous permet d'accéder à la liste blanche (toujours autorisée) à "
+"partir d'une liste d'adresses IP. "
+
+#: inc/contextual-help.php:327
+msgid ""
+"This is useful if your site uses a forward/reverse proxy, load balancer, "
+"etc. "
+msgstr ""
+"Ceci est utile si votre site utilise un proxy direct / inverse, un "
+"équilibreur de charge, etc. "
+
+#: inc/contextual-help.php:328
+msgid "If you are unsure, leave this setting blank."
+msgstr "Si vous n'êtes pas sûr, laissez ce paramètre vide."
+
+#: inc/contextual-help.php:332 inc/contextual-help.php:437
+msgid "Important:"
+msgstr "Important :"
+
+#: inc/contextual-help.php:333
+msgid ""
+"IPs added to this section are matched against the IP that is reported with "
+"each request. "
+msgstr ""
+"Les adresses IP ajoutées à cette section correspondent à l'IP qui est "
+"signalé pour chaque demande. "
+
+#: inc/contextual-help.php:334
+msgid "IPs defined here should contain only numbers and dots, for example:"
+msgstr ""
+"Les adresses IP définies ici ne contiennent que des nombres et des points, "
+"par exemple:"
+
+#: inc/contextual-help.php:335
+msgid "Note that these IPs are treated as regular expressions, "
+msgstr ""
+"Notez que ces adresses IP sont traitées comme des expressions régulières, "
+
+#: inc/contextual-help.php:336 inc/contextual-help.php:581
+msgid "such that a pattern of"
+msgstr "de sorte qu'un modèle de"
+
+#: inc/contextual-help.php:337 inc/contextual-help.php:582
+msgid "will match every IP that begins with"
+msgstr "correspondra à chaque IP qui commence par"
+
+#: inc/contextual-help.php:337 inc/contextual-help.php:582
+msgid "So exercise caution for best results."
+msgstr "Faites donc preuve de prudence pour obtenir les meilleurs résultats."
+
+#: inc/contextual-help.php:340
+msgid "Default: blank (no whitelisted IPs)"
+msgstr "Par défaut: vide (pas d'adresses IP en liste blanche)"
+
+#: inc/contextual-help.php:376
+msgid ""
+"The Patterns screen provides three sets of BBQ Patterns: Basic, Advanced, "
+"and Custom. Each set of patterns is available under its own tab. Here is an "
+"overview:"
+msgstr ""
+"L'écran fournit trois ensembles de Paramètres BBQ De base, Avancée et "
+"Personnaliser. Chaque ensemble de paramètres est disponible sous son propre "
+"onglet. Voici un aperçu:"
+
+#: inc/contextual-help.php:380 inc/contextual-help.php:492
+#: inc/contextual-help.php:494
+msgid "Basic Patterns"
+msgstr "Motifs de base"
+
+#: inc/contextual-help.php:381
+msgid ""
+"Basically the same patterns that are used in the free version of the plugin. "
+msgstr ""
+"Fondamentalement, les mêmes modèles sont utilisés dans la version gratuite "
+"du plugin. "
+
+#: inc/contextual-help.php:382
+msgid "They are well-tested and recommended for all sites."
+msgstr "Ils sont bien testés et recommandés pour tous les sites."
+
+#: inc/contextual-help.php:386 inc/contextual-help.php:528
+#: inc/contextual-help.php:530
+msgid "Advanced Patterns"
+msgstr "Modèles avancés"
+
+#: inc/contextual-help.php:387
+msgid "Protect against a wide variety of malicious requests and exploits. "
+msgstr ""
+"Protégez-vous contre une grande variété de demandes et d'exploits "
+"malveillants. "
+
+#: inc/contextual-help.php:388
+msgid "They primarily are derived from the"
+msgstr "Ils sont principalement dérivés de"
+
+#: inc/contextual-help.php:393 inc/contextual-help.php:566
+#: inc/contextual-help.php:568
+msgid "Custom Patterns"
+msgstr "Types de Modèles personnalisée"
+
+#: inc/contextual-help.php:393
+msgid "Enable you to add your own custom rules to BBQ Pro."
+msgstr "Permet d'ajouter vos règles personnalisées à BBQ Pro."
+
+#: inc/contextual-help.php:396
+msgid "All BBQ patterns may be enabled, disabled, or customized as follows:"
+msgstr ""
+"Tous les modèles BBQ peuvent être activés, désactivés ou personnalisés comme "
+"suit:"
+
+#: inc/contextual-help.php:399
+msgid "Modify a pattern"
+msgstr "Modifier un paramètre"
+
+#: inc/contextual-help.php:399
+msgid ""
+"To modify a pattern, make any desired changes and click &ldquo;Save "
+"Changes&rdquo;. "
+msgstr ""
+"Pour modifier un paramètre, effectuez les modifications souhaitées et "
+"cliquez sur &ldquo;Enregistrer les modifications&rdquo;. "
+
+#: inc/contextual-help.php:400
+msgid "Add a pattern"
+msgstr "Ajouter Motif"
+
+#: inc/contextual-help.php:400
+msgid ""
+"To add your own pattern, visit the &ldquo;Custom&rdquo; tab and click &ldquo;"
+"Add Pattern&rdquo;. "
+msgstr ""
+"Pour ajouter votre propre paramètre, visitez l'onglet &ldquo;"
+"Personnalisé&rdquo; et cliquez sur &ldquo;Ajouter un profil&rdquo;. "
+
+#: inc/contextual-help.php:402
+msgid "Remove a pattern"
+msgstr "Supprimer un profil"
+
+#: inc/contextual-help.php:402
+msgid ""
+"To remove a pattern, first enable the setting &ldquo;Remove Disabled&rdquo;. "
+msgstr ""
+"Pour supprimer un profil, activez d'abord le paramètre &ldquo;Supprimer "
+"désactivé&rdquo;. "
+
+#: inc/contextual-help.php:403
+msgid ""
+"Then deselect any unwanted patterns and click &ldquo;Save Changes&rdquo; to "
+"remove them."
+msgstr ""
+"Ensuite, désélectionnez les motifs indésirables et cliquez sur &ldquo;"
+"Enregistrer les modifications&rdquo; pour les supprimer."
+
+#: inc/contextual-help.php:407 inc/contextual-help.php:423
+#: inc/contextual-help.php:444 inc/contextual-help.php:461
+#: inc/contextual-help.php:485 inc/contextual-help.php:594
+#: inc/contextual-help.php:726
+msgid "Tip:"
+msgstr "Conseil :"
+
+#: inc/contextual-help.php:407
+msgid ""
+"visit the plugin settings to enable or disable each of the three types of "
+"patterns."
+msgstr ""
+"visitez les paramètres du plugin pour activer ou désactiver chacun des trois "
+"types de modèles."
+
+#: inc/contextual-help.php:414 inc/contextual-help.php:416
+msgid "Toggle Panels"
+msgstr "Panneau de contrôle"
+
+#: inc/contextual-help.php:419
+msgid ""
+"To help manage your patterns, you can toggle each panel by clicking on its "
+"title. "
+msgstr ""
+"Pour aider à gérer vos modèles, vous pouvez basculer chaque panneau en "
+"cliquant sur son titre. "
+
+#: inc/contextual-help.php:420
+msgid ""
+"For example, to toggle the &ldquo;Query String&rdquo; panel, click on the "
+"title, &ldquo;Query String&rdquo;. Likewise for each of the other panels."
+msgstr ""
+"Par exemple, pour basculer le panneau &ldquo;Query String&rdquo; cliquez sur "
+"le titre &ldquo;Query String&rdquo;. De même pour chacun des autres panneaux."
+
+#: inc/contextual-help.php:423
+msgid "click the link &ldquo;Toggle all panels&rdquo; to toggle all panels."
+msgstr ""
+"cliquez sur le lien &ldquo;Toggle all panels&rdquo; pour basculer tous les "
+"panneaux."
+
+#: inc/contextual-help.php:430 inc/contextual-help.php:432
+msgid "Enable Patterns"
+msgstr "Activer les modèles"
+
+#: inc/contextual-help.php:434
+msgid ""
+"Check the checkbox for any pattern to enable it. Conversely, uncheck the "
+"checkbox for any pattern to disable it. Remember to click &ldquo;Save "
+"Changes&rdquo;."
+msgstr ""
+"Cochez la case pour activer chaque paramètre. À l'inverse, décochez la case "
+"pour désactiver n'importe quel paramètre . N'oubliez pas de cliquer sur "
+"\"Enregistrer les modifications\"."
+
+#: inc/contextual-help.php:438
+msgid ""
+"when the setting &ldquo;Remove Disabled&rdquo; is enabled, all unselected/"
+"unchecked patterns will be removed. "
+msgstr ""
+"lorsque le paramètre &ldquo;Supprimer désactivé&rdquo; est activé, tous les "
+"paramètre non sélectionnés / non contrôlés seront supprimés. "
+
+#: inc/contextual-help.php:439
+msgid ""
+"This is useful for cleaning up unwanted patterns. At any time you can visit"
+msgstr ""
+"Ceci est utile pour nettoyer les modèles indésirables. À tout moment, vous "
+"pouvez visiter"
+
+#: inc/contextual-help.php:440 inc/contextual-help.php:625
+#: inc/contextual-help.php:627 inc/display-tools.php:15
+msgid "BBQ Tools"
+msgstr "Outils BBQ"
+
+#: inc/contextual-help.php:441
+msgid "to restore default patterns and settings."
+msgstr "pour restaurer les paramètres par défaut."
+
+#: inc/contextual-help.php:444
+msgid ""
+"check the top checkbox of any panel to automatically select all checkboxes "
+"in that panel."
+msgstr ""
+"cochez la case supérieure de chaque panneau pour sélectionner "
+"automatiquement toutes les cases dans ce panneau."
+
+#: inc/contextual-help.php:451 inc/contextual-help.php:453
+msgid "Pattern Count"
+msgstr "Nombre de case"
+
+#: inc/contextual-help.php:456
+msgid ""
+"BBQ Pro records the number of times each pattern is used to block a request. "
+msgstr ""
+"BBQ Pro enregistre le nombre de fois que chaque motif est utilisé pour "
+"bloquer une demande. "
+
+#: inc/contextual-help.php:457
+msgid ""
+"This can be useful for troubleshooting, monitoring traffic, and fine-tuning "
+"your firewall. "
+msgstr ""
+"Cela peut être utile pour le dépannage, la surveillance du trafic et le "
+"réglage précis de votre pare-feu. "
+
+#: inc/contextual-help.php:458
+msgid ""
+"To change the count value for any pattern, edit the count field and click "
+"&ldquo;Save Changes&rdquo;. "
+msgstr ""
+"Pour modifier la valeur du compteur pour n'importe quel motif, modifiez le "
+"champ du compteur et cliquez sur &ldquo;Enregistrer les "
+"modifications&rdquo;. "
+
+#: inc/contextual-help.php:461
+msgid ""
+"click the &ldquo;Count&rdquo; table heading to toggle (show/hide) the "
+"pattern counts."
+msgstr ""
+"cliquez sur le titre de la table &ldquo;Count&rdquo; pour basculer "
+"(afficher / masquer) le nombre de motifs."
+
+#: inc/contextual-help.php:468 inc/contextual-help.php:470
+msgid "Test Pattern"
+msgstr "Séquence de test"
+
+#: inc/contextual-help.php:473
+msgid "To test any defined pattern, click on its &ldquo;Test&rdquo; button. "
+msgstr ""
+"Pour tester tout motif défini, cliquez sur son bouton &ldquo;Test&rdquo;. "
+
+#: inc/contextual-help.php:474
+msgid ""
+"Doing so will make an URI request that includes the defined pattern (opens "
+"in new tab or window). "
+msgstr ""
+"Cela fera une demande URI qui inclut le modèle défini (s'ouvre dans un "
+"nouvel onglet ou une fenêtre). "
+
+#: inc/contextual-help.php:475
+msgid ""
+"This increases the pattern count and enables you to see exactly what happens "
+"when the pattern is included in a request. "
+msgstr ""
+"Cela augmente le nombre de motifs et vous permet de voir exactement ce qui "
+"se produit lorsque le motif est inclus dans une requête. "
+
+#: inc/contextual-help.php:481
+msgid ""
+"test buttons are available only for patterns defined under &ldquo;Query "
+"String&rdquo; or &ldquo;Request URI&rdquo;. "
+msgstr ""
+"les boutons de test sont disponibles uniquement pour les motifs définis sous "
+"&ldquo;Chaîne de requête&rdquo; ou \"Demande d'URII&rdquo;. "
+
+#: inc/contextual-help.php:482
+msgid "To test User Agent Patterns, check out the handy tool at"
+msgstr ""
+"Pour tester les modèles d'agent utilisateur, consultez l'outil pratique au"
+
+#: inc/contextual-help.php:482 inc/contextual-help.php:595
+msgid "Request Maker"
+msgstr "Demandeur"
+
+#: inc/contextual-help.php:485
+msgid ""
+"you can set the status code that BBQ sends for blocked requests by visiting "
+"&ldquo;Status Code&rdquo; in the plugin settings."
+msgstr ""
+"vous pouvez définir le code d'état que BBQ envoie pour les demandes bloquées "
+"en visitant &ldquo;Code d'état&rdquo; dans les paramètres du plugin."
+
+#: inc/contextual-help.php:497
+msgid ""
+"BBQ Pro&rsquo;s Basic Patterns are the same patterns that are used in the "
+"free version of the plugin. "
+msgstr ""
+"Les modèles de base de BBQ Pro&rsquo;s sont les mêmes que ceux utilisés dans "
+"la version gratuite du plugin. "
+
+#: inc/contextual-help.php:498
+msgid ""
+"They are well-tested and recommended for all WordPress-powered sites. There "
+"are three types of Basic Patterns:"
+msgstr ""
+"Ils sont bien testés et recommandés pour tous les sites alimentés par "
+"WordPress. Il existe trois types de modèles de base:"
+
+#: inc/contextual-help.php:503 inc/contextual-help.php:542
+#: inc/display-patterns.php:222
+msgid "Query String"
+msgstr "Chaîne de requête"
+
+#: inc/contextual-help.php:504 inc/contextual-help.php:543
+msgid ""
+"Patterns defined in this section are tested against the query-string portion "
+"of each URI request. "
+msgstr ""
+"Les modèles définis dans cette section sont testés en fonction de la partie "
+"de la chaîne d'interrogation de chaque demande URI. "
+
+#: inc/contextual-help.php:505 inc/contextual-help.php:512
+#: inc/contextual-help.php:544 inc/contextual-help.php:551
+msgid "For example, if the requested URI is"
+msgstr "Par exemple, si l'URI demandé est"
+
+#: inc/contextual-help.php:506 inc/contextual-help.php:545
+msgid "the query-string is"
+msgstr "chaîne de requête"
+
+#: inc/contextual-help.php:510 inc/contextual-help.php:549
+#: inc/display-patterns.php:223
+msgid "Request URI"
+msgstr "URI de requête"
+
+#: inc/contextual-help.php:511 inc/contextual-help.php:550
+msgid ""
+"Patterns defined in this section are tested against the requested URI, not "
+"including the query string. "
+msgstr ""
+"Les modèles définis dans cette section sont testés par rapport à l'URI "
+"demandé, sans compter la chaîne de requête. "
+
+#: inc/contextual-help.php:513 inc/contextual-help.php:552
+msgid "patterns defined in this section are tested against"
+msgstr "les modèles définis dans cette section sont testés contre"
+
+#: inc/contextual-help.php:517 inc/contextual-help.php:556
+#: inc/display-patterns.php:224
+msgid "User Agent"
+msgstr "Agent utilisateur"
+
+#: inc/contextual-help.php:518 inc/contextual-help.php:557
+msgid ""
+"Patterns defined in this section are tested against the reported user agent "
+"for each URI request. "
+msgstr ""
+"Les modèles définis dans cette section sont testés contre l'agent "
+"utilisateur signalé pour chaque demande URI. "
+
+#: inc/contextual-help.php:519 inc/contextual-help.php:558
+msgid ""
+"User agents are faked easily, however many bad requests continue to report "
+"well-known and malicious agents that should be blocked whenever possible."
+msgstr ""
+"Les agents utilisateurs sont facilement falsifiés, même si de nombreuses "
+"mauvaises demandes continuent à signaler des agents connus et malveillants "
+"qui devraient être bloqués dans la mesure du possible."
+
+#: inc/contextual-help.php:533
+msgid ""
+"BBQ Pro&rsquo;s Advanced Patterns protect against a wide variety of "
+"malicious requests and exploits. They primarily are derived from the"
+msgstr ""
+"Les modèles avancés de BBQ Pro&rsquo;s protègent contre une grande variété "
+"de demandes et d'exploits malveillants. Ils sont principalement dérivés de"
+
+#: inc/contextual-help.php:537
+msgid "There are three types of Advanced Patterns:"
+msgstr "Il existe trois types de modèles avancés:"
+
+#: inc/contextual-help.php:571
+msgid ""
+"BBQ Pro&rsquo;s Custom Patterns enable you to add your own custom rules to "
+"BBQ Pro. "
+msgstr ""
+"Les modèles personnalisés de BBQ Pro&rsquo;s vous permettent d'ajouter vos "
+"propres règles personnalisées à BBQ Pro. "
+
+#: inc/contextual-help.php:572
+msgid ""
+"In addition to the three types of patterns used for Basic and Advanced "
+"Patterns (i.e., Query String, Request URI, and User Agent), BBQ&rsquo;s "
+"Custom Patterns include:"
+msgstr ""
+"En plus des trois types de modèles utilisés pour les modèles de base et "
+"avancés (i.e., Chaîne de requête, Demande d'URI et Agent utilisateur), les "
+"modèles personnalisés de BBQ&rsquo;s incluent:"
+
+#: inc/contextual-help.php:577 inc/display-patterns.php:225
+msgid "IP Address"
+msgstr "Adresse IP"
+
+#: inc/contextual-help.php:578
+msgid ""
+"Patterns defined in this section are matched against the IP address that is "
+"reported with each request. "
+msgstr ""
+"Les modèles définis dans cette section correspondent à l'adresse IP qui est "
+"signalée à chaque demande. "
+
+#: inc/contextual-help.php:579
+msgid ""
+"Patterns defined here should contain only numbers and dots, for example:"
+msgstr ""
+"Les modèles définis ici ne contiennent que des nombres et des points, par "
+"exemple:"
+
+#: inc/contextual-help.php:580
+msgid "Note that these patterns are treated as regular expressions, "
+msgstr "Notez que ces modèles sont traités comme des expressions régulières, "
+
+#: inc/contextual-help.php:586 inc/display-patterns.php:226
+msgid "Referrer"
+msgstr "Référant"
+
+#: inc/contextual-help.php:587
+msgid ""
+"Patterns defined in this section are tested against the reported referrer. "
+msgstr ""
+"Les modèles définis dans cette section sont testés en fonction du référent "
+"signalé. "
+
+#: inc/contextual-help.php:588
+msgid "For example, if you keep getting bad requests from the site"
+msgstr ""
+"Par exemple, si vous continuez à recevoir de mauvaises demandes du site"
+
+#: inc/contextual-help.php:589
+msgid "you can add the URL in this section to block them."
+msgstr "vous pouvez ajouter l'URL dans cette section pour les bloquer."
+
+#: inc/contextual-help.php:595
+msgid "to test User Agent Patterns and Referrer Patterns, check out"
+msgstr ""
+"tour tester les Paramètres des agents utilisateurs et les Paramètres des "
+"références, vérifier"
+
+#: inc/contextual-help.php:628
+msgid "BBQ Tools enable the following tasks:"
+msgstr "Les outils BBQ permettent les tâches suivantes:"
+
+#: inc/contextual-help.php:631 inc/contextual-help.php:643
+#: inc/contextual-help.php:645 inc/display-tools.php:22
+msgid "Reset Settings"
+msgstr "Réinitialiser Réglages"
+
+#: inc/contextual-help.php:631
+msgid "reset all plugin options to their default settings"
+msgstr ""
+"réinitialiser toutes les options du plugin à leurs paramètres par défaut"
+
+#: inc/contextual-help.php:632 inc/contextual-help.php:655
+#: inc/contextual-help.php:657 inc/display-tools.php:29
+msgid "Reset Patterns"
+msgstr "Réinitialiser les modèles"
+
+#: inc/contextual-help.php:632
+msgid "reset all patterns to default values, and reset all counts to zero"
+msgstr ""
+"réinitialiser tous les modèles aux valeurs par défaut et réinitialiser tous "
+"les compteurs à zéro"
+
+#: inc/contextual-help.php:633 inc/contextual-help.php:676
+#: inc/contextual-help.php:678 inc/display-tools.php:38
+msgid "Reset Counts"
+msgstr "Réinitialiser les compteurs"
+
+#: inc/contextual-help.php:633
+msgid "reset all pattern counts to zero"
+msgstr "réinitialiser tous les compteurs de motifs à zéro"
+
+#: inc/contextual-help.php:636 inc/contextual-help.php:669
+msgid ""
+"resetting BBQ patterns also resets their associated count values to zero."
+msgstr ""
+"la réinitialisation des modifications de BBQ réinitialise également les "
+"compteurs associées à zéro."
+
+#: inc/contextual-help.php:646
+msgid ""
+"To reset BBQ settings to their default values, check the box &ldquo;Reset "
+"Plugin Settings&rdquo; and click the &ldquo;Reset&rdquo; button."
+msgstr ""
+"Pour réinitialiser les paramètres de BBQ à leurs valeurs par défaut, cochez "
+"la case &ldquo;Réinitialiser les paramètres du plugin&rdquo; et cliquez sur "
+"le bouton &ldquo;Réinitialiser&rdquo; ."
+
+#: inc/contextual-help.php:648
+msgid ""
+"uninstalling BBQ Pro via the Plugin screen will remove all of the "
+"plugin&rsquo;s settings, patterns, and data."
+msgstr ""
+"la désinstallation de BBQ Pro via l'écran Plugin supprime tous les "
+"paramètres, les motifs et les données du plugin&rsquo;s."
+
+#: inc/contextual-help.php:659
+msgid ""
+"Resetting BBQ patterns ensures that your firewall is current with the latest "
+"set of default patterns, which includes any changes made in updated versions "
+"of the plugin."
+msgstr ""
+"La réinitialisation des modèles de BBQ garantit que votre pare-feu est "
+"actuel avec le dernier ensemble de modèles par défaut, qui inclut les "
+"modifications apportées aux versions mises à jour du plugin."
+
+#: inc/contextual-help.php:660
+msgid ""
+"To reset BBQ patterns to their default values, check one or more of the "
+"following boxes:"
+msgstr ""
+"Pour réinitialiser les paramètre de BBQ à leurs valeurs par défaut, cochez "
+"une ou plusieurs des cases suivantes:"
+
+#: inc/contextual-help.php:663 inc/display-tools.php:31
+msgid "Reset Basic Patterns"
+msgstr "Réinitialiser les modèles de base"
+
+#: inc/contextual-help.php:664 inc/display-tools.php:32
+msgid "Reset Advanced Patterns"
+msgstr "Réinitialiser les modèles avancés"
+
+#: inc/contextual-help.php:665 inc/display-tools.php:33
+msgid "Reset Custom Patterns"
+msgstr "Réinitialiser les modèles personnalisés"
+
+#: inc/contextual-help.php:668
+msgid "..then click the &ldquo;Reset&rdquo; button and call it a day."
+msgstr ""
+".. alors cliquez sur le bouton &ldquo;Réinitialiser&rdquo; et mettez-le par "
+"jour."
+
+#: inc/contextual-help.php:679
+msgid ""
+"To reset all pattern counts to their default values, check the box &ldquo;"
+"Reset Pattern Counts&rdquo; and click the &ldquo;Reset&rdquo; button."
+msgstr ""
+"Pour réinitialiser tous les comptes de motifs à leurs valeurs par défaut, "
+"cochez la case &ldquo;Réinitialiser les compteurs de motifs&rdquo; et "
+"cliquez sur le bouton &ldquo;Réinitialiser&rdquo; ."
+
+#: inc/contextual-help.php:707 inc/contextual-help.php:709
+msgid "BBQ License"
+msgstr "Licence BBQ"
+
+#: inc/contextual-help.php:711
+msgid ""
+"License activation enables access to plugin settings, free auto-updates, and "
+"priority support."
+msgstr ""
+"L'activation de la licence permet d'accéder aux paramètres du plugin, aux "
+"mises à jour automatiques gratuites et au support en priorité."
+
+#: inc/contextual-help.php:712
+msgid ""
+"On this screen, you may enter your License Key to enable BBQ Pro and all "
+"features. Here are the steps: "
+msgstr ""
+"Sur cet écran, vous pouvez entrer votre clé de licence pour activer le BBQ "
+"Pro et toutes les fonctionnalités. Voici les étapes suivantes: "
+
+#: inc/contextual-help.php:715
+msgid "Enter your License Key in the &ldquo;License Key&rdquo; field"
+msgstr "Entrez votre clé de licence dans le champ &ldquo;clé de licence&rdquo;"
+
+#: inc/contextual-help.php:716
+msgid "Click the &ldquo;Save Changes&rdquo; button"
+msgstr "Cliquez sur le bouton &ldquo;Enregistrer les modifications&rdquo;"
+
+#: inc/contextual-help.php:717
+msgid "Click the &ldquo;Activate License&rdquo; button*"
+msgstr "Cliquez sur le bouton &ldquo;Activer la licence&rdquo; button*"
+
+#: inc/contextual-help.php:722
+msgid ""
+"the &ldquo;Activate License&rdquo; button is displayed after entering your "
+"license and saving the changes (steps 1 and 2)."
+msgstr ""
+"le bouton &ldquo;Activer la licence&rdquo; s'affiche après avoir entré votre "
+"licence et sauvegardé les modifications (étapes 1 et 2)."
+
+#: inc/contextual-help.php:727
+msgid "to view your License Key at any time"
+msgstr "pour afficher votre clé de licence à tout moment"
+
+#: inc/contextual-help.php:727
+msgid "log in to your account at Plugin Planet"
+msgstr "connectez-vous à votre compte Plugin Planet"
+
+#: inc/contextual-help.php:735 inc/contextual-help.php:737
+#: updates/bbq-updates.php:79 updates/bbq-updates.php:110
+msgid "License Status"
+msgstr "Statut de la licence"
+
+#: inc/contextual-help.php:738
+msgid "Indicates whether or not the plugin is enabled."
+msgstr "Indique si le plugin est activé."
+
+#: inc/contextual-help.php:745 inc/contextual-help.php:747
+#: updates/bbq-updates.php:70 updates/bbq-updates.php:91
+#: updates/bbq-updates.php:101
+msgid "License Key"
+msgstr "Clé de licence"
+
+#: inc/contextual-help.php:748
+msgid "Specifies the License Key for the site."
+msgstr "Spécifie la clé de licence pour le site."
+
+#: inc/contextual-help.php:755 inc/contextual-help.php:757
+#: updates/bbq-updates.php:59 updates/bbq-updates.php:112
+msgid "Activate License"
+msgstr "Activer votre licence"
+
+#: inc/contextual-help.php:758
+msgid ""
+"This button appears after entering your license in the &ldquo;License "
+"Key&rdquo; field and clicking the &ldquo;Save Changes&rdquo; button. "
+msgstr ""
+"Ce bouton apparaît après avoir entré votre licence dans le &ldquo;Clé de "
+"licence&rdquo; Champ et cliquez sur le &ldquo;Enregistrer les "
+"modifications&rdquo; bouton. "
+
+#: inc/contextual-help.php:759
+msgid ""
+"Once your license is entered, click the &ldquo;Activate License&rdquo; "
+"button to activate your license and enable the plugin."
+msgstr ""
+"Une fois votre licence saisie, cliquez sur &ldquo;Activer la licence&rdquo; "
+"Pour activer votre licence et activer le plugin."
+
+#: inc/display-patterns.php:8
+msgid "Basic"
+msgstr "Basique"
+
+#: inc/display-patterns.php:9
+msgid "Advanced"
+msgstr "Avancé"
+
+#: inc/display-patterns.php:10
+msgid "Custom"
+msgstr "Personnaliser"
+
+#. Plugin Name of the plugin/theme
+#: inc/display-patterns.php:24 inc/display-settings.php:16
+#: inc/display-settings.php:32 inc/display-tools.php:11
+#: inc/register-settings.php:33 updates/bbq-updates.php:36
+msgid "BBQ Pro"
+msgstr "BBQ Pro"
+
+#: inc/display-patterns.php:41
+msgid "Toggle all panels"
+msgstr "Basculer tous les panneaux"
+
+#: inc/display-patterns.php:43 inc/display-tools.php:17
+#: inc/register-settings.php:34
+msgid "Help"
+msgstr "Aide"
+
+#: inc/display-patterns.php:43 inc/display-tools.php:17
+#: inc/register-settings.php:34
+msgid "tab above for complete documentation."
+msgstr "ci-dessus pour la documentation complète."
+
+#: inc/display-patterns.php:52
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
+
+#: inc/display-patterns.php:57 inc/display-settings.php:44
+#: inc/display-tools.php:51
+msgid "Welcome to BBQ Pro!"
+msgstr "Bienvenue sur BBQ Pro !"
+
+#: inc/display-patterns.php:58 inc/display-settings.php:45
+#: inc/display-tools.php:52
+msgid "Enter your License Key to enable BBQ Pro &raquo;"
+msgstr "Entrez votre clé de licence pour activer BBQ Pro &raquo;"
+
+#: inc/display-patterns.php:129
+msgid "Add Pattern"
+msgstr "Ajouter Motif"
+
+#: inc/display-patterns.php:206
+msgid "BBQ Patterns updated successfully."
+msgstr "Les modèles BBQ ont été mis à jour avec succès."
+
+#: inc/display-patterns.php:210 inc/display-tools.php:119
+#: updates/bbq-updates.php:153
+msgid "No changes made."
+msgstr "Pas de changements effectué."
+
+#: inc/display-patterns.php:237
+msgid "Toggle patterns (enable/disable)"
+msgstr "Marqueur de position (Activer / Désactiver)"
+
+#: inc/display-patterns.php:239
+msgid "Pattern"
+msgstr "Motif"
+
+#: inc/display-patterns.php:241 inc/display-patterns.php:277
+msgid "Test"
+msgstr "Test"
+
+#: inc/display-patterns.php:243
+msgid "Count"
+msgstr "Compteurs"
+
+#: inc/display-settings.php:7 inc/display-settings.php:19
+msgid "Settings"
+msgstr "Paramètres"
+
+#: inc/display-settings.php:22
+msgid "License"
+msgstr "Licence"
+
+#: inc/display-tools.php:24
+msgid "Reset Plugin Settings"
+msgstr "Réinitialiser les paramètres du plugin"
+
+#: inc/display-tools.php:40
+msgid "Reset Pattern Counts"
+msgstr "Réinitialiser les compteurs"
+
+#: inc/display-tools.php:46
+msgid "Reset"
+msgstr "Effacer"
+
+#: inc/display-tools.php:60
+msgid "Reset selected items?"
+msgstr "Réinitialiser les éléments sélectionnés?"
+
+#: inc/display-tools.php:115
+msgid "Reset successful."
+msgstr "Réinitialiser réussi."
+
+#: inc/register-settings.php:11
+msgid "Grillin&rsquo; &amp; Chillin&rsquo;"
+msgstr "Grillin&rsquo; &amp; Chillin&rsquo;"
+
+#: inc/register-settings.php:14
+msgid "Enable BBQ&rsquo;s Basic Rules"
+msgstr "Activer BBQ&rsquo;s Règles de base"
+
+#: inc/register-settings.php:15
+msgid "Enable BBQ&rsquo;s Advanced Rules"
+msgstr "Activer BBQ&rsquo;s Règles avancées"
+
+#: inc/register-settings.php:16
+msgid "Enable BBQ&rsquo;s Custom Rules"
+msgstr "Activer BBQ&rsquo;s Règles personnelles"
+
+#: inc/register-settings.php:18
+msgid "Disable BBQ for logged-in users"
+msgstr "Désactivez BBQ pour les utilisateurs connectés"
+
+#: inc/register-settings.php:19
+msgid "Limit URL requests to 255 characters"
+msgstr "Limiter les requêtes d'URL à 255 caractères"
+
+#: inc/register-settings.php:20
+msgid "Enable Strict Mode (see Help tab for details)"
+msgstr "Activer le mode Strict (voir l'onglet Aide pour plus de détails)"
+
+#: inc/register-settings.php:22
+msgid "Redirect URL (leave blank for no redirect)"
+msgstr "Redirection d'URL (laisser vide pour aucune redirection)"
+
+#: inc/register-settings.php:23
+msgid "Custom Message (leave blank for no message)"
+msgstr "Message personnalisé (laisser vide pour aucun message)"
+
+#: inc/register-settings.php:24
+msgid "Status code"
+msgstr "Code d'état"
+
+#: inc/register-settings.php:26
+msgid "Remove disabled patterns"
+msgstr "Supprimer les chaînes désactivées"
+
+#: inc/register-settings.php:27
+msgid "IPs that never should be blocked (comma separated)"
+msgstr ""
+"Les adresses IP qui ne doivent jamais être bloquées (séparées par des "
+"virgules)"
+
+#: inc/register-settings.php:33
+msgid "Thanks for using"
+msgstr "Merci d'utiliser"
+
+#: inc/register-settings.php:44
+msgid "BBQ is Disabled"
+msgstr "BBQ est désactivé"
+
+#: inc/register-settings.php:73
+msgid "BBQ is Enabled"
+msgstr "BBQ est activé"
+
+#: updates/bbq-updater.php:201
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"Une nouvelle version de %1$s est disponible. %2$sVoir la version %3$s "
+"détails %4$s."
+
+#: updates/bbq-updater.php:209
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Il y a une nouvelle version de %1$s disponible. %2$sVoir version %3$s détails"
+"%4$s ou %5$smettre à jour maintenant%6$s."
+
+#: updates/bbq-updater.php:396
+msgid "You do not have permission to install plugin updates"
+msgstr "Vous n’avez pas la permission d’installer les mises à jour du plugin"
+
+#: updates/bbq-updater.php:396
+msgid "Error"
+msgstr "Erreur"
+
+#: updates/bbq-updates.php:38
+msgid "BBQ Pro License"
+msgstr "Licence Pro BBQ"
+
+#: updates/bbq-updates.php:41
+msgid "Activate your license to enable BBQ Pro and free automatic updates."
+msgstr ""
+"Activez votre licence BBQ Pro afin de profiter des mises à jours "
+"automatiques."
+
+#: updates/bbq-updates.php:42
+msgid "Show/hide instructions"
+msgstr "Afficher/masquer les instructions"
+
+#: updates/bbq-updates.php:42
+msgid "View the steps&nbsp;&raquo;"
+msgstr "Voir les étapess&nbsp;&raquo;"
+
+#: updates/bbq-updates.php:45
+msgid "Follow these steps to activate your license:"
+msgstr "Suivez ces étapes pour activer votre licence :"
+
+#: updates/bbq-updates.php:47
+msgid "Get your License Key"
+msgstr "Votre clé de licence"
+
+#: updates/bbq-updates.php:48
+msgid "Enter your license in the field, &ldquo;License Key&rdquo;"
+msgstr "Entrez votre licence dans le champ, &ldquo;Clé de licence&rdquo;"
+
+#: updates/bbq-updates.php:49
+msgid "Click &ldquo;Save Changes&rdquo;"
+msgstr "Cliquez &ldquo;Enregistrer les modifications&rdquo;"
+
+#: updates/bbq-updates.php:50
+msgid "Click &ldquo;Activate License&rdquo;"
+msgstr "Cliquez &ldquo;Activer la licence&rdquo;"
+
+#: updates/bbq-updates.php:53
+msgid "If you need help,"
+msgstr "Si vous avez besoin d’aide,"
+
+#: updates/bbq-updates.php:54
+msgid "check out this guide"
+msgstr "consultez ce guide"
+
+#: updates/bbq-updates.php:54
+msgid "and/or"
+msgstr "et/ou"
+
+#: updates/bbq-updates.php:55
+msgid "contact us"
+msgstr "nous contacter"
+
+#: updates/bbq-updates.php:74
+msgid "Your BBQ Pro License is active."
+msgstr "Votre licence BBQ Pro est activée."
+
+#: updates/bbq-updates.php:81
+msgid "Deactivate License"
+msgstr "Désactiver la licence"
+
+#: updates/bbq-updates.php:94
+msgid "Enter your License Key"
+msgstr "Entrez votre clé de licence"
+
+#: updates/bbq-updates.php:105
+msgid ""
+"Your license is inactive. To activate, click &ldquo;Activate License&rdquo;"
+msgstr ""
+"Votre licence est inactive. Pour activer, cliquez sur &ldquo;Activer la "
+"licence&rdquo;"
+
+#: updates/bbq-updates.php:125
+msgid "Visit BBQ Pro Settings &raquo;"
+msgstr "Visitez les paramètres BBQ Pro &raquo;"
+
+#: updates/bbq-updates.php:149
+msgid "Updated!"
+msgstr "Mise à jour!"
+
+#. Plugin URI of the plugin/theme
+msgid "https://plugin-planet.com/bbq-pro/"
+msgstr "https://plugin-planet.com/bbq-pro/"
+
+#. Description of the plugin/theme
+msgid ""
+"The fastest WordPress firewall plugin. Advanced protection against malicious "
+"requests."
+msgstr ""
+"Le plugin de pare-feu WordPress le plus rapide. Protection avancée contre "
+"les demandes malveillantes."
+
+#. Author URI of the plugin/theme
+msgid "https://plugin-planet.com/"
+msgstr "https://plugin-planet.com/"
