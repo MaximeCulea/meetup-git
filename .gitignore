@@ -177,17 +177,8 @@ content/mu-plugins/_debug
 content/mu-plugins/bea-welcome-panel
 # END bea-welcome-panel #
 
-# BEGIN debug-bar-extender #
-content/plugins/debug-bar-extender
-# END debug-bar-extender #
 
-# BEGIN debug-bar-cache-lookup #
-content/plugins/debug-bar-cache-lookup
-# END debug-bar-cache-lookup #
 
-# BEGIN logger #
-content/mu-plugins/logger
-# END logger #
 
 # BEGIN mu-loader #
 content/mu-plugins/mu-loader
@@ -277,50 +268,29 @@ content/plugins/cookie-notice
 content/plugins/optimus
 # END optimus #
 
-# BEGIN debug #
-content/plugins/debug
-# END debug #
 
-# BEGIN debug-bar #
-content/plugins/debug-bar
-# END debug-bar #
 
-# BEGIN debug-bar-actions-and-filters-addon #
-content/plugins/debug-bar-actions-and-filters-addon
-# END debug-bar-actions-and-filters-addon #
 
-# BEGIN debug-bar-cron #
-content/plugins/debug-bar-cron
-# END debug-bar-cron #
 
-# BEGIN debug-bar-list-dependencies #
-content/plugins/debug-bar-list-dependencies
-# END debug-bar-list-dependencies #
 
-# BEGIN debug-bar-shortcodes #
-content/plugins/debug-bar-shortcodes
-# END debug-bar-shortcodes #
 
-# BEGIN debug-bar-slow-actions #
-content/plugins/debug-bar-slow-actions
-# END debug-bar-slow-actions #
 
-# BEGIN rewrite-rules-inspector #
-content/plugins/rewrite-rules-inspector
-# END rewrite-rules-inspector #
 
-# BEGIN wp-email-debug #
-content/plugins/wp-email-debug
-# END wp-email-debug #
 
-# BEGIN wp-newrelic #
-content/plugins/wp-newrelic
-# END wp-newrelic #
 
-# BEGIN laps #
-content/plugins/laps
-# END laps #
 
-# BEGIN prod-images #
-content/mu-plugins/prod-images
-# END prod-images #
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

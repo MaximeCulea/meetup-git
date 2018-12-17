@@ -12,69 +12,25 @@ class ComposerStaticInit891b8c44c898184d9faa5a95c81a7c98
     );
 
     public static $prefixLengthsPsr4 = array (
-        'S' => 
-        array (
-            'Symfony\\Component\\Stopwatch\\' => 28,
-        ),
-        'R' => 
-        array (
-            'Rarst\\Laps\\' => 11,
-        ),
-        'P' => 
-        array (
-            'Psr\\Container\\' => 14,
-        ),
         'C' => 
         array (
             'Composer\\Installers\\' => 20,
         ),
         'B' => 
         array (
-            'BEA\\Composer\\ScaffoldTheme\\' => 27,
-            'BEA\\Composer\\ScaffoldPlugin\\' => 28,
-            'BEA\\Composer\\MakeStablePlugin\\' => 30,
             'BEA\\Composer\\GoMaintenance\\' => 27,
-            'BEA\\Composer\\FreezePackagesVersionPlugin\\' => 41,
             'BEA\\ComposerInstaller\\' => 22,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Symfony\\Component\\Stopwatch\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/stopwatch',
-        ),
-        'Rarst\\Laps\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/content/plugins/laps/src',
-        ),
-        'Psr\\Container\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/psr/container/src',
-        ),
         'Composer\\Installers\\' => 
         array (
             0 => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers',
         ),
-        'BEA\\Composer\\ScaffoldTheme\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/beapi/composer-scaffold-theme/src',
-        ),
-        'BEA\\Composer\\ScaffoldPlugin\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/bea/composer/scaffold-plugin/src',
-        ),
-        'BEA\\Composer\\MakeStablePlugin\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/bea/composer/make-stable/src',
-        ),
         'BEA\\Composer\\GoMaintenance\\' => 
         array (
             0 => __DIR__ . '/..' . '/beapi/composer-go-maintenance/src',
-        ),
-        'BEA\\Composer\\FreezePackagesVersionPlugin\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/bea/composer/freeze-version/src',
         ),
         'BEA\\ComposerInstaller\\' => 
         array (
@@ -88,20 +44,6 @@ class ComposerStaticInit891b8c44c898184d9faa5a95c81a7c98
             'johnpbloch\\Composer\\' => 
             array (
                 0 => __DIR__ . '/..' . '/johnpbloch/wordpress-core-installer/src',
-            ),
-        ),
-        'P' => 
-        array (
-            'Pimple' => 
-            array (
-                0 => __DIR__ . '/..' . '/pimple/pimple/src',
-            ),
-        ),
-        'M' => 
-        array (
-            'Mustache' => 
-            array (
-                0 => __DIR__ . '/..' . '/mustache/mustache/src',
             ),
         ),
     );

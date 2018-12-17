@@ -7,6 +7,4 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'johnpbloch\\Composer\\' => array($vendorDir . '/johnpbloch/wordpress-core-installer/src'),
-    'Pimple' => array($vendorDir . '/pimple/pimple/src'),
-    'Mustache' => array($vendorDir . '/mustache/mustache/src'),
 );
