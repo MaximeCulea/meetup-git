@@ -1,4 +1,0 @@
-<?php
-if ( '163.172.116.223' !== $_SERVER['REMOTE_ADDR'] )
-    $upgrading = time();
-?>

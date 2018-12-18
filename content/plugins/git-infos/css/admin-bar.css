@@ -1,9 +1,0 @@
-li.greenish, li.greenish:focus, li.greenish:hover a {
-    background-color: green !important;
-    color: white !important
-}
-
-li.redish, li.redish:focus, li.redish:hover a {
-    background-color: red !important;
-    color: white !important
-}

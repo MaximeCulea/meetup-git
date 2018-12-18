@@ -1,3 +1,0 @@
-# Autres informations
-
-Lorem ipsum dolor sit amet ...
