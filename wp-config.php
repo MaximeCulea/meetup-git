@@ -1,77 +1,76 @@
 <?php
+/**
+ * The base configuration for WordPress
+ *
+ * The wp-config.php creation script uses this file during the
+ * installation. You don't have to use the web site, you can
+ * copy this file to "wp-config.php" and fill in the values.
+ *
+ * This file contains the following configurations:
+ *
+ * * MySQL settings
+ * * Secret keys
+ * * Database table prefix
+ * * ABSPATH
+ *
+ * @link https://codex.wordpress.org/Editing_wp-config.php
+ *
+ * @package WordPress
+ */
 
-require( __DIR__ . '/vendor/autoload.php' );
+// ** MySQL settings ** //
+/** The name of the database for WordPress */
+define( 'DB_NAME', 'local' );
 
-if ( ! defined( 'APP_DOMAIN' ) ) {
-	define( 'APP_DOMAIN', $_SERVER['HTTP_HOST'] );
-}
+/** MySQL database username */
+define( 'DB_USER', 'root' );
 
-// Set correct protocol for servers behind proxy
-// See : https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-Proto
-if (
-	! empty( $_SERVER['HTTP_X_FORWARDED_PROTO'] )
-	&& stripos( $_SERVER['HTTP_X_FORWARDED_PROTO'], 'https' ) !== false
-) {
-	$_SERVER['HTTPS'] = 'on';
-}
+/** MySQL database password */
+define( 'DB_PASSWORD', 'root' );
 
-// Set correct remote IP for servers behind proxy
-// See : https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For
-if ( ! empty( $_SERVER['HTTP_X_FORWARDED_FOR'] ) ) {
-	$forwardip              = explode( ',', $_SERVER['HTTP_X_FORWARDED_FOR'] );
-	$_SERVER['REMOTE_ADDR'] = $forwardip[0];
-}
+/** MySQL hostname */
+define( 'DB_HOST', 'localhost' );
 
-// Ensure we use the correct port when in HTTPS behind proxy
-$_SERVER['SERVER_PORT'] = ( $_SERVER['HTTPS'] === 'on' ) ? 443 : 80;
+/** Database Charset to use in creating database tables. */
+define( 'DB_CHARSET', 'utf8' );
 
-define( 'WP_HOME', 'https://' . APP_DOMAIN );
-define( 'WP_SITEURL', 'https://' . APP_DOMAIN . '/wp' );
+/** The Database Collate type. Don't change this if in doubt. */
+define( 'DB_COLLATE', '' );
 
-define( 'WP_CONTENT_DIR', __DIR__ . '/content' );
-define( 'WP_CONTENT_URL', WP_HOME . '/content' );
+/**
+ * Authentication Unique Keys and Salts.
+ *
+ * Change these to different unique phrases!
+ * You can generate these using the {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org secret-key service}
+ * You can change these at any point in time to invalidate all existing cookies. This will force all users to have to log in again.
+ *
+ * @since 2.6.0
+ */
+define('AUTH_KEY',         '/GqOo5c8BHJEb/XIlLIWykFVptkEJ1BmxowSrkPzQwPlXnoLnAc7Bwqn2Yb57BWhv3CbjTulbO5Zlus63fw1kA==');
+define('SECURE_AUTH_KEY',  'Pa1Q9GCb30+wpXUZVwXBOw798B6p1GwV/4tzfSXH57jjG6Jhv+nVCFJtnkxSOn3vsjByPMqmsdjNTF+GOSPHDw==');
+define('LOGGED_IN_KEY',    'yOPR9kQGv6IEB2CRA8rtB5RHK+x6fikQVkMkj2RjIzQKDLMKT9cUPnjfJ1rKb/XgrJ9Yttsn4Z8Xcc370ExQFQ==');
+define('NONCE_KEY',        'FdKOnG3lRT/F+EqbDKLvmY4gM1zVrDIwPk81rYhZVyq9en+yJVPvizUn43iuQemey3YC3/GvAW+pv8oD1qwt/A==');
+define('AUTH_SALT',        '/Da5csJyE17V1ukGSEsCSDbMThNcACGWiJd8MAS2eZsku9WDfuWF8zJOgp/Gi3lJXRk74CzYlWq2PcfRcU5wQA==');
+define('SECURE_AUTH_SALT', '+veJLyvmaB3TJugAWWIcynozrnQ36dVJfDozr6t9NUiYzgG6uDsdaUUWzHcXKXdqhZAlUNou8ioGIs5811lfww==');
+define('LOGGED_IN_SALT',   '++XQNQNx5z4BtqS0p5bOKja9x2efSZBn3sIZliwYc2kN2ndJF1fV60F5OXrqnsIxUJ0PpFtkk0FL+roikETjHQ==');
+define('NONCE_SALT',       'ybj1wflbHSZ3TCdbQRMhuNDCRtHfp5EhO6AJlGQt4XOTpY5HD2tqJh7tdJS8zOB5I1vKDXjgoXCMtkFofXimQg==');
 
-if ( ! defined( 'DB_HOST' ) ) {
-	define( 'DB_HOST', 'localhost' );
-}
+/**
+ * WordPress Database Table prefix.
+ *
+ * You can have multiple installations in one database if you give each
+ * a unique prefix. Only numbers, letters, and underscores please!
+ */
+$table_prefix = 'wp_';
 
-if ( ! defined( 'DB_CHARSET' ) ) {
-	define( 'DB_CHARSET', 'utf8' );
-}
 
-if ( ! defined( 'DB_COLLATE' ) ) {
-	define( 'DB_COLLATE', '' );
-}
 
-if ( ! defined( 'WP_DEBUG' ) ) {
-	define( 'WP_DEBUG', false );
-}
-if ( WP_DEBUG ) {
-	define( 'WP_DEBUG_LOG', true );
-	if ( ! defined( 'WP_DEBUG_DISPLAY' ) ) {
-		define( 'WP_DEBUG_DISPLAY', false );
-	}
 
-	define( 'SAVEQUERIES', true );
-	define( 'SCRIPT_DEBUG', true );
-	define( 'CONCATENATE_SCRIPTS', false );
-}
+/* That's all, stop editing! Happy blogging. */
 
-if ( ! defined( 'DISALLOW_FILE_EDIT' ) ) {
-	define( 'DISALLOW_FILE_EDIT', true );
-}
+/** Absolute path to the WordPress directory. */
+if ( ! defined( 'ABSPATH' ) )
+	define( 'ABSPATH', dirname( __FILE__ ) . '/' );
 
-if ( ! isset( $table_prefix ) ) {
-	$table_prefix = 'wp_';
-}
-
-// https://api.wordpress.org/secret-key/1.1/salt/
-if ( file_exists( __DIR__ . '/salt.php' ) ) {
-	require( __DIR__ . '/salt.php' );
-}
-
-if ( ! defined( 'ABSPATH' ) ) {
-	define( 'ABSPATH', dirname( __FILE__ ) . '/wp' );
-}
-
-require_once( ABSPATH . 'wp-settings.php' );
+/** Sets up WordPress vars and included files. */
+require_once ABSPATH . 'wp-settings.php';
