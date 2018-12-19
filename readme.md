@@ -1,8 +1,10 @@
 # Introduction au gestionnaire de version GIT
 
-## Git WorkFlow
-1. add a file from IDE : maxime.php
-2. add it to git : <code>git add maxime.php</code>
+## General git workflow
+1. add a file from IDE : `maxime.php`
+2. add it to git : <code>git add maxime.php</code> or all files with <code>git add .</code>
+3. edit the file then commit changes : <code>git commit -m "my first commit"</code>
+4. push them : <code>git commit -m "my first commit"</code>
 
 ## Git Conflict
 1. create a new branch from master : <code>git checkout -b evol/1</code>
@@ -33,9 +35,9 @@
 </html>
 ```
 6. push changes : <code>git push origin evol/2</code>
-7. on server, only get the modifications : <code>git fetch -a</code>
-8. to apply the new modifications : <code>git pull -f</code>
-9. we can change branches (content) as we want : <code>git checkout evol/1</code>
+7. we can change branches (content) as we want : <code>git checkout evol/1</code>
+8. on server, only get the modifications : <code>git fetch -a</code>
+9. to apply the new modifications : <code>git pull -f</code>
 10. finally merge the two branches on master :
-10.1 go on master : <code>git checkout master</code>
-10.2 merge branches : <code>git merge evol/1</code> and <code>git merge evol/2</code>
+    - go on master : <code>git checkout master</code>
+    - merge branches : <code>git merge evol/1</code> and <code>git merge evol/2</code>
