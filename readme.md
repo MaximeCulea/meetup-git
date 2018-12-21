@@ -1,5 +1,8 @@
 # Introduction au gestionnaire de version GIT
 
+Slides : https://slides.com/maximeculea/meetup-wordpress-git
+YouTube vidéo : https://www.youtube.com/watch?v=-VFoqwbQSM8
+
 ## General git workflow
 1. add a file from IDE : `maxime.php`
 2. add it to git : <code>git add maxime.php</code> or all files with <code>git add .</code>
