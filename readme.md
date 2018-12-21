@@ -45,7 +45,7 @@ YouTube vidéo : https://www.youtube.com/watch?v=-VFoqwbQSM8
 10. finally merge the two branches on master :
     - go on master : <code>git checkout master</code>
     - merge branches : <code>git merge evol/1</code> and <code>git merge evol/2</code>
-11. It results into a conflict :
+11. it results into a conflict :
     - edit the final modification into the file
     - stage changes : <code>git add .</code>
     - then commit them : <code>git commit -m "Resolved merge conflict by incorporating both suggestions."</code>
