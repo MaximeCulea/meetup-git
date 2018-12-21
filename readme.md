@@ -8,7 +8,7 @@ YouTube vidéo : https://www.youtube.com/watch?v=-VFoqwbQSM8
 1. add a file from IDE : `maxime.php`
 2. add it to git : <code>git add maxime.php</code> or all files with <code>git add .</code>
 3. edit the file then commit changes : <code>git commit -m "my first commit"</code>
-4. push them : <code>git commit -m "my first commit"</code>
+4. push them : <code>git push origin master</code>
 
 ## Git Conflict
 1. create a new branch from master : <code>git checkout -b evol/1</code>
