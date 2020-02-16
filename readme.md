@@ -1,8 +1,12 @@
 # Introduction au gestionnaire de version GIT
 
-Slides : https://slides.com/maximeculea/meetup-wordpress-git
+- Slides : https://slides.com/maximeculea/meetup-wp-geneve-introduction-git
+- YouTube vidéo : coming soon
 
-YouTube vidéo : https://www.youtube.com/watch?v=-VFoqwbQSM8
+## WP Meetup Paris
+
+- Slides : https://slides.com/maximeculea/meetup-wordpress-git
+- YouTube vidéo : https://www.youtube.com/watch?v=-VFoqwbQSM8
 
 ## General git workflow
 1. add a file from IDE : `maxime.php`
