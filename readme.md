@@ -1,5 +1,7 @@
 # Introduction au gestionnaire de version GIT
 
+## WP Meetup Geneva
+
 - Slides : https://slides.com/maximeculea/meetup-wp-geneve-introduction-git
 - YouTube vidéo : coming soon
 
